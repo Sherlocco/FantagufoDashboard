@@ -1,0 +1,66 @@
+{
+  "1": {
+    "casa": 2,
+    "trasferta": 0,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Quinones, Jimenez",
+    "completata": true
+  },
+  "2": {
+    "casa": 2,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Krejci, Beom, Oh",
+    "completata": true
+  },
+  "3": {
+    "casa": 1,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Lukic, Larin",
+    "completata": true
+  },
+  "5": {
+    "casa": 1,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Embolo, Muheim(Aut)",
+    "completata": true
+  },
+  "6": {
+    "casa": 1,
+    "trasferta": 1,
+    "casa_1t": 1,
+    "trasferta_1t": 1,
+    "marcatori": "Saibari, Vinicius jr",
+    "completata": true
+  },
+  "7": {
+    "casa": 0,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "McGinn",
+    "completata": true
+  },
+  "4": {
+    "casa": 4,
+    "trasferta": 1,
+    "casa_1t": 3,
+    "trasferta_1t": 0,
+    "marcatori": "Bobadilla (Aut), Balogun, Mauricio, Reyna",
+    "completata": true
+  },
+  "8": {
+    "casa": 2,
+    "trasferta": 0,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Irankunda, Metcalfe",
+    "completata": true
+  }
+}

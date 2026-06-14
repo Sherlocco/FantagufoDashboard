@@ -1,0 +1,438 @@
+{
+  "Andrea__28": {
+    "raw": "u f1-0 Gjimenez",
+    "under": true,
+    "golden_goal": "Jimenez",
+    "risultato_finale": "1-0"
+  },
+  "Andrea__50": {
+    "raw": "ov Gdemirovic",
+    "over": true,
+    "golden_goal": "Demirovic"
+  },
+  "Andrea__31": {
+    "raw": "ov p3-0 Gvinicius",
+    "over": true,
+    "golden_goal": "Vinicius",
+    "risultato_parziale": "3-0"
+  },
+  "Andrea__8": {
+    "raw": "a+fabio Gartutkoglu",
+    "against": "Fabio",
+    "golden_goal": "Akturkoglu"
+  },
+  "Andrea__9": {
+    "raw": "ov p4-0 f6-0 Gharvetz",
+    "over": true,
+    "golden_goal": "Havertz",
+    "risultato_parziale": "4-0",
+    "risultato_finale": "6-0"
+  },
+  "Andrea__33": {
+    "raw": "ov Ggakpo",
+    "over": true,
+    "golden_goal": "Gakpo"
+  },
+  "Andrea__14": {
+    "raw": "a+nino papà bb",
+    "best_bet": true,
+    "against": "Pasquale"
+  },
+  "Andrea__65": {
+    "raw": "ov Gde katelaere",
+    "over": true,
+    "golden_goal": "De Ketelaere"
+  },
+  "Andrea__13": {
+    "raw": "ov ng p4-0 f6-0 Gyamal",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Yamal",
+    "risultato_parziale": "4-0",
+    "risultato_finale": "6-0"
+  },
+  "Andrea__42": {
+    "raw": "Gdembelè",
+    "golden_goal": "Dembele"
+  },
+  "Andrea__72": {
+    "raw": "ov ng Glautaro",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Lautaro"
+  },
+  "Andrea__21": {
+    "raw": "ov ng f4-0 Gronaldo",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Ronaldo",
+    "risultato_finale": "4-0"
+  },
+  "Andrea__67": {
+    "raw": "ov ng Gkane",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Kane"
+  },
+  "Fabio__1": {
+    "raw": "NG OV Gjimenez",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Jimenez"
+  },
+  "Fabio__3": {
+    "raw": "DX Gdemirovic P0-0",
+    "doppia_chance": "X",
+    "golden_goal": "Demirovic",
+    "risultato_parziale": "0-0"
+  },
+  "Fabio__4": {
+    "raw": "DX G Gpulisic",
+    "doppia_chance": "X",
+    "gol": true,
+    "golden_goal": "Pulisic"
+  },
+  "Fabio__9": {
+    "raw": "NG Ghavertz OV",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Havertz"
+  },
+  "Fabio__13": {
+    "raw": "OV NG Gyamal",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Yamal"
+  },
+  "Fabio__17": {
+    "raw": "Gdembelè",
+    "golden_goal": "Dembele"
+  },
+  "Fabio__31": {
+    "raw": "OV Gvinicius NG",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Vinicius"
+  },
+  "Fabio__38": {
+    "raw": "Gde katelaere",
+    "golden_goal": "De Ketelaere"
+  },
+  "Fabio__45": {
+    "raw": "OV NG Gronaldo",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Ronaldo"
+  },
+  "Fabio__46": {
+    "raw": "Gkane",
+    "golden_goal": "Kane"
+  },
+  "Fabio__57": {
+    "raw": "NG Gmalen P0-0",
+    "no_gol": true,
+    "golden_goal": "Malen",
+    "risultato_parziale": "0-0"
+  },
+  "Gabriele__7": {
+    "raw": "F+0-2",
+    "risultato_finale": "0-2"
+  },
+  "Gabriele__11": {
+    "raw": "D2 + BB + A+SIMONE + P+0-0 U",
+    "doppia_chance": "2",
+    "best_bet": true,
+    "under": true,
+    "against": "Simone",
+    "risultato_parziale": "0-0"
+  },
+  "Gabriele__13": {
+    "raw": "OV + G+JAMAL + NG + P+2-0",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Yamal",
+    "risultato_parziale": "2-0"
+  },
+  "Gabriele__14": {
+    "raw": "D1 + BB + F+1-1",
+    "doppia_chance": "1",
+    "best_bet": true,
+    "risultato_finale": "1-1"
+  },
+  "Gabriele__23": {
+    "raw": "U + G + F+1-1",
+    "under": true,
+    "gol": true,
+    "risultato_finale": "1-1"
+  },
+  "Gabriele__26": {
+    "raw": "BB + U + A+SIMONE + F+1-1",
+    "best_bet": true,
+    "under": true,
+    "against": "Simone",
+    "risultato_finale": "1-1"
+  },
+  "Gabriele__27": {
+    "raw": "NG + P+1-0",
+    "no_gol": true,
+    "risultato_parziale": "1-0"
+  },
+  "Gabriele__31": {
+    "raw": "NG+ OV+ G+VINICIUS + P+2-0",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Vinicius",
+    "risultato_parziale": "2-0"
+  },
+  "Gabriele__32": {
+    "raw": "P+0-0",
+    "risultato_parziale": "0-0"
+  },
+  "Gabriele__36": {
+    "raw": "A+SIMONE  + P+0-0",
+    "against": "Simone",
+    "risultato_parziale": "0-0"
+  },
+  "Gabriele__38": {
+    "raw": "P+3-0",
+    "risultato_parziale": "3-0"
+  },
+  "Gabriele__41": {
+    "raw": "DX + P+0-0",
+    "doppia_chance": "X",
+    "risultato_parziale": "0-0"
+  },
+  "Gabriele__45": {
+    "raw": "NG + P+2-0",
+    "no_gol": true,
+    "risultato_parziale": "2-0"
+  },
+  "Gabriele__54": {
+    "raw": "G + P+0-0 + F+1-1 U",
+    "under": true,
+    "gol": true,
+    "risultato_parziale": "0-0",
+    "risultato_finale": "1-1"
+  },
+  "Gabriele__56": {
+    "raw": "F+0-3",
+    "risultato_finale": "0-3"
+  },
+  "Gabriele__58": {
+    "raw": "G + F+1-1",
+    "gol": true,
+    "risultato_finale": "1-1"
+  },
+  "Gabriele__59": {
+    "raw": "A+SIMONE + U + F+1-1",
+    "under": true,
+    "against": "Simone",
+    "risultato_finale": "1-1"
+  },
+  "Gabriele__61": {
+    "raw": "D2 + P+0-1 G",
+    "doppia_chance": "2",
+    "gol": true,
+    "risultato_parziale": "0-1"
+  },
+  "Gabriele__62": {
+    "raw": "U + NG + F+0-0",
+    "under": true,
+    "no_gol": true,
+    "risultato_finale": "0-0"
+  },
+  "Gabriele__64": {
+    "raw": "D2 + G+ U + F+2-2",
+    "doppia_chance": "2",
+    "under": true,
+    "gol": true,
+    "risultato_finale": "2-2"
+  },
+  "Gabriele__67": {
+    "raw": "G+KANE + OV + NG + P+0-1",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Kane",
+    "risultato_parziale": "0-1"
+  },
+  "Gabriele__69": {
+    "raw": "D2 + U + F+1-1",
+    "doppia_chance": "2",
+    "under": true,
+    "risultato_finale": "1-1"
+  },
+  "Gabriele__71": {
+    "raw": "G + F+1-2",
+    "gol": true,
+    "risultato_finale": "1-2"
+  },
+  "Giampaolo__1": {
+    "raw": "OV + BB + G+Giménez + P1-0 + F2-1 NG",
+    "best_bet": true,
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Gimenez",
+    "risultato_parziale": "1-0",
+    "risultato_finale": "2-1"
+  },
+  "Manuel__6": {
+    "raw": "BB - GG  - P 1-1 - DX1 - A Fabio",
+    "doppia_chance": "1",
+    "best_bet": true,
+    "gol": true,
+    "against": "Fabio",
+    "risultato_parziale": "1-1"
+  },
+  "Manuel__8": {
+    "raw": "D2 - BB - A Wlater",
+    "doppia_chance": "2",
+    "best_bet": true,
+    "against": "Walter"
+  },
+  "Manuel__50": {
+    "raw": "U - P 0-0 - G DEZKO",
+    "under": true,
+    "golden_goal": "Dzeko",
+    "risultato_parziale": "0-0"
+  },
+  "Marco__9": {
+    "raw": "Aumberto,OV,Gmusiala",
+    "over": true,
+    "against": "Umberto",
+    "golden_goal": "Musiala"
+  },
+  "Marco__18": {
+    "raw": "OV, Ghaaland",
+    "over": true,
+    "golden_goal": "Haaland"
+  },
+  "Marco__29": {
+    "raw": "OV, Gpulisic",
+    "over": true,
+    "golden_goal": "Pulisic"
+  },
+  "Marco__31": {
+    "raw": "Awalter,OV,Gvinicius",
+    "over": true,
+    "against": "Walter",
+    "golden_goal": "Vinicius"
+  },
+  "Marco__37": {
+    "raw": "Gyamal,F3-0",
+    "golden_goal": "Yamal",
+    "risultato_finale": "3-0"
+  },
+  "Marco__38": {
+    "raw": "Gde ketelaere",
+    "golden_goal": "De Ketelaere"
+  },
+  "Marco__48": {
+    "raw": "Gdiaz,F2-0",
+    "golden_goal": "Diaz",
+    "risultato_finale": "2-0"
+  },
+  "Marco__54": {
+    "raw": "U, Ggimenez",
+    "under": true,
+    "golden_goal": "Gimenez"
+  },
+  "Marco__57": {
+    "raw": "P0-0, Gmalen",
+    "golden_goal": "Malen",
+    "risultato_parziale": "0-0"
+  },
+  "Marco__67": {
+    "raw": "Amancuso,OV,Gkane",
+    "over": true,
+    "against": "Nino",
+    "golden_goal": "Kane"
+  },
+  "Marco__72": {
+    "raw": "Alorenzo,Glautaro",
+    "against": "Lorenzo",
+    "golden_goal": "Lautaro Martinez"
+  },
+  "Nino__31": {
+    "raw": "NG, OV, F 4-0, G Vinícius",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "Vinicius",
+    "risultato_finale": "4-0"
+  },
+  "Nino__32": {
+    "raw": "NG, F 2-0, G Güler",
+    "no_gol": true,
+    "golden_goal": "Guler",
+    "risultato_finale": "2-0"
+  },
+  "Nino__65": {
+    "raw": "NG, OV, F 0-4, G De Bruyne",
+    "over": true,
+    "no_gol": true,
+    "golden_goal": "De Bruyne",
+    "risultato_finale": "0-4"
+  },
+  "Roberto__18": {
+    "raw": "P:0-1/F:02",
+    "risultato_parziale": "0-1",
+    "risultato_finale": "0-2"
+  },
+  "Roberto__69": {
+    "raw": "P:0-0/F-0-0",
+    "risultato_parziale": "0-0",
+    "risultato_finale": "0-0"
+  },
+  "Simone__40": {
+    "raw": "G+Salah NG",
+    "no_gol": true,
+    "golden_goal": "Salah"
+  },
+  "Simone__70": {
+    "raw": "UN DX  P 0-0 A+Manuel",
+    "doppia_chance": "X",
+    "under": true,
+    "against": "Manuel",
+    "risultato_parziale": "0-0"
+  },
+  "Umberto__1": {
+    "raw": "G+Jimenez\nNG",
+    "no_gol": true,
+    "golden_goal": "Jimenez"
+  },
+  "Umberto__9": {
+    "raw": "G+Havertz\nNG",
+    "no_gol": true,
+    "golden_goal": "Havertz"
+  },
+  "Umberto__14": {
+    "raw": "G+De Katelaere\nOV",
+    "over": true,
+    "golden_goal": "De Ketelaere"
+  },
+  "Umberto__21": {
+    "raw": "G+Ronaldo\nNG",
+    "no_gol": true,
+    "golden_goal": "Ronaldo"
+  },
+  "Umberto__22": {
+    "raw": "G+Kane\nG",
+    "gol": true,
+    "golden_goal": "Kane"
+  },
+  "Walter__1": {
+    "raw": "DX-P(0-0)-GG(GIMENEZ)",
+    "doppia_chance": "X",
+    "golden_goal": "Gimenez",
+    "risultato_parziale": "0-0"
+  },
+  "Walter__30": {
+    "raw": "DX-A-NOA",
+    "doppia_chance": "X",
+    "against": "Umberto"
+  },
+  "Walter__45": {
+    "raw": "A-NOA-OV",
+    "over": true,
+    "against": "Umberto"
+  }
+}

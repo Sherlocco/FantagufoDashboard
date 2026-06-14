@@ -1,0 +1,7301 @@
+{
+  "partite": [
+    {
+      "id": 1,
+      "girone": "A",
+      "casa": "Messico",
+      "trasferta": "Sudafrica"
+    },
+    {
+      "id": 2,
+      "girone": "A",
+      "casa": "Corea del Sud",
+      "trasferta": "Repubblica Ceca"
+    },
+    {
+      "id": 3,
+      "girone": "B",
+      "casa": "Canada",
+      "trasferta": "Bosnia"
+    },
+    {
+      "id": 4,
+      "girone": "D",
+      "casa": "USA",
+      "trasferta": "Paraguay"
+    },
+    {
+      "id": 5,
+      "girone": "B",
+      "casa": "Qatar",
+      "trasferta": "Svizzera"
+    },
+    {
+      "id": 6,
+      "girone": "C",
+      "casa": "Brasile",
+      "trasferta": "Marocco"
+    },
+    {
+      "id": 7,
+      "girone": "C",
+      "casa": "Haiti",
+      "trasferta": "Scozia"
+    },
+    {
+      "id": 8,
+      "girone": "D",
+      "casa": "Australia",
+      "trasferta": "Turchia"
+    },
+    {
+      "id": 9,
+      "girone": "E",
+      "casa": "Germania",
+      "trasferta": "Curaçao"
+    },
+    {
+      "id": 10,
+      "girone": "F",
+      "casa": "Olanda",
+      "trasferta": "Giappone"
+    },
+    {
+      "id": 11,
+      "girone": "E",
+      "casa": "Costa d'Avorio",
+      "trasferta": "Ecuador"
+    },
+    {
+      "id": 12,
+      "girone": "F",
+      "casa": "Svezia",
+      "trasferta": "Tunisia"
+    },
+    {
+      "id": 13,
+      "girone": "H",
+      "casa": "Spagna",
+      "trasferta": "Capo Verde"
+    },
+    {
+      "id": 14,
+      "girone": "G",
+      "casa": "Belgio",
+      "trasferta": "Egitto"
+    },
+    {
+      "id": 15,
+      "girone": "H",
+      "casa": "Arabia Saudita",
+      "trasferta": "Uruguay"
+    },
+    {
+      "id": 16,
+      "girone": "G",
+      "casa": "Iran",
+      "trasferta": "Nuova Zelanda"
+    },
+    {
+      "id": 17,
+      "girone": "I",
+      "casa": "Francia",
+      "trasferta": "Senegal"
+    },
+    {
+      "id": 18,
+      "girone": "I",
+      "casa": "Iraq",
+      "trasferta": "Norvegia"
+    },
+    {
+      "id": 19,
+      "girone": "J",
+      "casa": "Argentina",
+      "trasferta": "Algeria"
+    },
+    {
+      "id": 20,
+      "girone": "J",
+      "casa": "Austria",
+      "trasferta": "Giordania"
+    },
+    {
+      "id": 21,
+      "girone": "K",
+      "casa": "Portogallo",
+      "trasferta": "Congo"
+    },
+    {
+      "id": 22,
+      "girone": "L",
+      "casa": "Inghilterra",
+      "trasferta": "Croazia"
+    },
+    {
+      "id": 23,
+      "girone": "L",
+      "casa": "Ghana",
+      "trasferta": "Panama"
+    },
+    {
+      "id": 24,
+      "girone": "K",
+      "casa": "Uzbekistan",
+      "trasferta": "Colombia"
+    },
+    {
+      "id": 25,
+      "girone": "A",
+      "casa": "Repubblica Ceca",
+      "trasferta": "Sudafrica"
+    },
+    {
+      "id": 26,
+      "girone": "B",
+      "casa": "Svizzera",
+      "trasferta": "Bosnia"
+    },
+    {
+      "id": 27,
+      "girone": "B",
+      "casa": "Canada",
+      "trasferta": "Qatar"
+    },
+    {
+      "id": 28,
+      "girone": "A",
+      "casa": "Messico",
+      "trasferta": "Corea del Sud"
+    },
+    {
+      "id": 29,
+      "girone": "D",
+      "casa": "USA",
+      "trasferta": "Australia"
+    },
+    {
+      "id": 30,
+      "girone": "C",
+      "casa": "Scozia",
+      "trasferta": "Marocco"
+    },
+    {
+      "id": 31,
+      "girone": "C",
+      "casa": "Brasile",
+      "trasferta": "Haiti"
+    },
+    {
+      "id": 32,
+      "girone": "D",
+      "casa": "Turchia",
+      "trasferta": "Paraguay"
+    },
+    {
+      "id": 33,
+      "girone": "F",
+      "casa": "Olanda",
+      "trasferta": "Svezia"
+    },
+    {
+      "id": 34,
+      "girone": "E",
+      "casa": "Germania",
+      "trasferta": "Costa d'Avorio"
+    },
+    {
+      "id": 35,
+      "girone": "E",
+      "casa": "Ecuador",
+      "trasferta": "Curaçao"
+    },
+    {
+      "id": 36,
+      "girone": "F",
+      "casa": "Tunisia",
+      "trasferta": "Giappone"
+    },
+    {
+      "id": 37,
+      "girone": "H",
+      "casa": "Spagna",
+      "trasferta": "Arabia Saudita"
+    },
+    {
+      "id": 38,
+      "girone": "G",
+      "casa": "Belgio",
+      "trasferta": "Iran"
+    },
+    {
+      "id": 39,
+      "girone": "H",
+      "casa": "Uruguay",
+      "trasferta": "Capo Verde"
+    },
+    {
+      "id": 40,
+      "girone": "G",
+      "casa": "Nuova Zelanda",
+      "trasferta": "Egitto"
+    },
+    {
+      "id": 41,
+      "girone": "J",
+      "casa": "Argentina",
+      "trasferta": "Austria"
+    },
+    {
+      "id": 42,
+      "girone": "I",
+      "casa": "Francia",
+      "trasferta": "Iraq"
+    },
+    {
+      "id": 43,
+      "girone": "I",
+      "casa": "Norvegia",
+      "trasferta": "Senegal"
+    },
+    {
+      "id": 44,
+      "girone": "J",
+      "casa": "Giordania",
+      "trasferta": "Algeria"
+    },
+    {
+      "id": 45,
+      "girone": "K",
+      "casa": "Portogallo",
+      "trasferta": "Uzbekistan"
+    },
+    {
+      "id": 46,
+      "girone": "L",
+      "casa": "Inghilterra",
+      "trasferta": "Ghana"
+    },
+    {
+      "id": 47,
+      "girone": "L",
+      "casa": "Panama",
+      "trasferta": "Croazia"
+    },
+    {
+      "id": 48,
+      "girone": "K",
+      "casa": "Colombia",
+      "trasferta": "Congo"
+    },
+    {
+      "id": 49,
+      "girone": "B",
+      "casa": "Svizzera",
+      "trasferta": "Canada"
+    },
+    {
+      "id": 50,
+      "girone": "B",
+      "casa": "Bosnia",
+      "trasferta": "Qatar"
+    },
+    {
+      "id": 51,
+      "girone": "C",
+      "casa": "Marocco",
+      "trasferta": "Haiti"
+    },
+    {
+      "id": 52,
+      "girone": "C",
+      "casa": "Scozia",
+      "trasferta": "Brasile"
+    },
+    {
+      "id": 53,
+      "girone": "A",
+      "casa": "Sudafrica",
+      "trasferta": "Corea del Sud"
+    },
+    {
+      "id": 54,
+      "girone": "A",
+      "casa": "Repubblica Ceca",
+      "trasferta": "Messico"
+    },
+    {
+      "id": 55,
+      "girone": "E",
+      "casa": "Curaçao",
+      "trasferta": "Costa d'Avorio"
+    },
+    {
+      "id": 56,
+      "girone": "E",
+      "casa": "Ecuador",
+      "trasferta": "Germania"
+    },
+    {
+      "id": 57,
+      "girone": "F",
+      "casa": "Tunisia",
+      "trasferta": "Olanda"
+    },
+    {
+      "id": 58,
+      "girone": "F",
+      "casa": "Giappone",
+      "trasferta": "Svezia"
+    },
+    {
+      "id": 59,
+      "girone": "D",
+      "casa": "Turchia",
+      "trasferta": "USA"
+    },
+    {
+      "id": 60,
+      "girone": "D",
+      "casa": "Paraguay",
+      "trasferta": "Australia"
+    },
+    {
+      "id": 61,
+      "girone": "I",
+      "casa": "Norvegia",
+      "trasferta": "Francia"
+    },
+    {
+      "id": 62,
+      "girone": "I",
+      "casa": "Senegal",
+      "trasferta": "Iraq"
+    },
+    {
+      "id": 63,
+      "girone": "H",
+      "casa": "Capo Verde",
+      "trasferta": "Arabia Saudita"
+    },
+    {
+      "id": 64,
+      "girone": "H",
+      "casa": "Uruguay",
+      "trasferta": "Spagna"
+    },
+    {
+      "id": 65,
+      "girone": "G",
+      "casa": "Nuova Zelanda",
+      "trasferta": "Belgio"
+    },
+    {
+      "id": 66,
+      "girone": "G",
+      "casa": "Egitto",
+      "trasferta": "Iran"
+    },
+    {
+      "id": 67,
+      "girone": "L",
+      "casa": "Panama",
+      "trasferta": "Inghilterra"
+    },
+    {
+      "id": 68,
+      "girone": "L",
+      "casa": "Croazia",
+      "trasferta": "Ghana"
+    },
+    {
+      "id": 69,
+      "girone": "K",
+      "casa": "Colombia",
+      "trasferta": "Portogallo"
+    },
+    {
+      "id": 70,
+      "girone": "K",
+      "casa": "Congo",
+      "trasferta": "Uzbekistan"
+    },
+    {
+      "id": 71,
+      "girone": "J",
+      "casa": "Algeria",
+      "trasferta": "Austria"
+    },
+    {
+      "id": 72,
+      "girone": "J",
+      "casa": "Giordania",
+      "trasferta": "Argentina"
+    }
+  ],
+  "partecipanti": {
+    "Andrea": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ov g",
+            "over": true,
+            "gol": true
+          }
+        },
+        "2": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "bb",
+            "best_bet": true
+          }
+        },
+        "25": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "d1 p0-0",
+            "doppia_chance": "1",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "u f1-0 Gjimenez",
+            "under": true,
+            "risultato_finale": "1-0"
+          }
+        },
+        "53": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ng",
+            "no_gol": true
+          }
+        },
+        "54": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "a+gp",
+            "against": "Giampaolo"
+          }
+        },
+        "6": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "a+walter g",
+            "gol": true,
+            "against": "Walter"
+          }
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "ng",
+            "no_gol": true
+          }
+        },
+        "30": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "dx bb u",
+            "doppia_chance": "X",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ov p3-0 Gvinicius",
+            "over": true,
+            "risultato_parziale": "3-0"
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "f0-3",
+            "risultato_finale": "0-3"
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ov p4-0 f6-0 Gharvetz",
+            "over": true,
+            "risultato_parziale": "4-0",
+            "risultato_finale": "6-0"
+          }
+        },
+        "11": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "a+ simone u g",
+            "under": true,
+            "gol": true,
+            "against": "Simone"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "dx",
+            "doppia_chance": "X"
+          }
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ng",
+            "no_gol": true
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "bb",
+            "best_bet": true
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "14": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "a+nino papà bb",
+            "best_bet": true,
+            "against": "Nino"
+          }
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "dx g",
+            "doppia_chance": "X",
+            "gol": true
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ng p3-0",
+            "no_gol": true,
+            "risultato_parziale": "3-0"
+          }
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "f0-4",
+            "risultato_finale": "0-4"
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "ov Gde katelaere",
+            "over": true
+          }
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "u",
+            "under": true
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "u g p1-1 f3-1",
+            "under": true,
+            "gol": true,
+            "risultato_parziale": "1-1",
+            "risultato_finale": "3-1"
+          }
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "ov",
+            "over": true
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Gdembelè"
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "bb",
+            "best_bet": true
+          }
+        },
+        "61": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "d2 a+marco",
+            "doppia_chance": "2",
+            "against": "Marco"
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ng",
+            "no_gol": true
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ov ng f4-0 Gronaldo",
+            "over": true,
+            "no_gol": true,
+            "risultato_finale": "4-0"
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "d1 bb u",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "g",
+            "gol": true
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "a+fabio",
+            "against": "Fabio"
+          }
+        },
+        "70": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "p0-1",
+            "risultato_parziale": "0-1"
+          }
+        },
+        "3": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "dx a+umby u ng",
+            "doppia_chance": "X",
+            "under": true,
+            "no_gol": true,
+            "against": "Umberto"
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "26": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "p1-0 f1-1 g",
+            "gol": true,
+            "risultato_parziale": "1-0",
+            "risultato_finale": "1-1"
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "49": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "bb",
+            "best_bet": true
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ov Gdemirovic",
+            "over": true
+          }
+        },
+        "4": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "bb u",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "a+fabio Gartutkoglu",
+            "against": "Fabio"
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "dx g  f2-1",
+            "doppia_chance": "X",
+            "gol": true,
+            "risultato_finale": "2-1"
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ng",
+            "no_gol": true
+          }
+        },
+        "59": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ov",
+            "over": true
+          }
+        },
+        "60": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "p2-1",
+            "risultato_parziale": "2-1"
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "12": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "bb ng",
+            "best_bet": true,
+            "no_gol": true
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ov Ggakpo",
+            "over": true
+          }
+        },
+        "36": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "u g",
+            "under": true,
+            "gol": true
+          }
+        },
+        "57": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "d2 a+gp",
+            "doppia_chance": "2",
+            "against": "Giampaolo"
+          }
+        },
+        "58": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "p0-0f0-0",
+            "risultato_parziale": "0-0",
+            "risultato_finale": "0-0"
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "ov ng p4-0 f6-0 Gyamal",
+            "over": true,
+            "no_gol": true,
+            "risultato_parziale": "4-0",
+            "risultato_finale": "6-0"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "63": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "bb g",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "d2 a+nino u",
+            "doppia_chance": "2",
+            "under": true,
+            "against": "Nino"
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "u",
+            "under": true
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "p2-0 f2-0",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "a+gp bb",
+            "best_bet": true,
+            "against": "Giampaolo"
+          }
+        },
+        "71": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "d1 g",
+            "doppia_chance": "1",
+            "gol": true
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "ov ng Glautaro",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "22": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "d1 a+umberto bb p0-0 f1-1 g",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "gol": true,
+            "against": "Umberto",
+            "risultato_parziale": "0-0",
+            "risultato_finale": "1-1"
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "u",
+            "under": true
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "ov ng Gkane",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": null
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "nuova zelanda",
+        "arbitro_finale": "marciniak",
+        "partita_piu_goal": "portogallo congo",
+        "finale_vincitrice": null,
+        "capocannoniere": "kane",
+        "gufo_contro": null
+      }
+    },
+    "Fabio": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG OV Gjimenez",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "2": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U P0-0 Awalter",
+            "under": true,
+            "against": "Walter",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "25": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "28": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "F3-1",
+            "risultato_finale": "3-1"
+          }
+        },
+        "53": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "54": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2 G",
+            "doppia_chance": "2",
+            "gol": true
+          }
+        },
+        "6": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB G D1",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "7": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "Amarco P0-0",
+            "against": "Marco",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "30": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV Gvinicius NG",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F0-2",
+            "risultato_finale": "0-2"
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG Ghavertz OV",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "11": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G Apasquale DX",
+            "doppia_chance": "X",
+            "gol": true,
+            "against": "Pasquale"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P0-0",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "35": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F0-1",
+            "risultato_finale": "0-1"
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "14": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB OV G D1",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "over": true,
+            "gol": true
+          }
+        },
+        "16": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "Agabriele",
+            "against": "Gabriele"
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Gde katelaere"
+          }
+        },
+        "40": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P0-0 F0-0",
+            "risultato_parziale": "0-0",
+            "risultato_finale": "0-0"
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "66": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U NG",
+            "under": true,
+            "no_gol": true
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Gdembelè"
+          }
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV NG P2-0",
+            "over": true,
+            "no_gol": true,
+            "risultato_parziale": "2-0"
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "61": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F0-1",
+            "risultato_finale": "0-1"
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G BB Aandrea Dx",
+            "doppia_chance": "X",
+            "best_bet": true,
+            "gol": true,
+            "against": "Andrea"
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F0-2",
+            "risultato_finale": "0-2"
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV NG Gronaldo",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "48": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P0-0",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "69": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB G",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "70": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D2 Aroberto",
+            "doppia_chance": "2",
+            "against": "Roberto"
+          }
+        },
+        "3": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX Gdemirovic P0-0",
+            "doppia_chance": "X",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "26": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G OV Aumby",
+            "over": true,
+            "gol": true,
+            "against": "Umberto"
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "49": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB F2-2",
+            "best_bet": true,
+            "risultato_finale": "2-2"
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX G Gpulisic",
+            "doppia_chance": "X",
+            "golden_goal": "Pulisic"
+          }
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG P0-1 F0-2",
+            "no_gol": true,
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-2"
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "32": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "59": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "Anino OV",
+            "over": true,
+            "against": "Nino"
+          }
+        },
+        "60": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "10": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB OV G D1",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "over": true,
+            "gol": true
+          }
+        },
+        "12": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "36": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "Agp",
+            "against": "Giampaolo"
+          }
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG Gmalen P0-0",
+            "no_gol": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "58": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F1-2",
+            "risultato_finale": "1-2"
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV NG Gyamal",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P0-1",
+            "risultato_parziale": "0-1"
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F3-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "63": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB Asimone D1",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "against": "Simone"
+          }
+        },
+        "64": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV NG",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "20": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB D1 P1-0",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "41": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "glautaro",
+            "golden_goal": "Lautaro Martinez"
+          }
+        },
+        "44": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "Alorenzo",
+            "against": "Lorenzo"
+          }
+        },
+        "71": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U F1-3",
+            "under": true,
+            "risultato_finale": "1-3"
+          }
+        },
+        "22": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB G Amanuel P0-0",
+            "best_bet": true,
+            "gol": true,
+            "against": "Manuel",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Gkane"
+          }
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV F0-2",
+            "over": true,
+            "risultato_finale": "0-2"
+          }
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "Capo Verde",
+        "arbitro_finale": "Letexier",
+        "partita_piu_goal": "Brasile-Haiti",
+        "finale_vincitrice": null,
+        "capocannoniere": "Oyarzabal",
+        "gufo_contro": null
+      }
+    },
+    "Gabriele": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+JIMENEZ + OV",
+            "over": true,
+            "golden_goal": "Jimenez"
+          }
+        },
+        "2": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2 + BB",
+            "doppia_chance": "2",
+            "best_bet": true
+          }
+        },
+        "25": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "53": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "A+SIMONE",
+            "against": "Simone"
+          }
+        },
+        "54": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G + P+0-0 + F+1-1 U",
+            "under": true,
+            "gol": true
+          }
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F+0-2"
+          }
+        },
+        "30": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB + U + A+SIMONE",
+            "best_bet": true,
+            "under": true,
+            "against": "Simone"
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG+ OV+ G+VINICIUS + P+2-0",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G + DX",
+            "doppia_chance": "X",
+            "gol": true
+          }
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+MUSIALA + OV + NG",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Musiala"
+          }
+        },
+        "11": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2 + BB + A+SIMONE + P+0-0 U",
+            "doppia_chance": "2",
+            "best_bet": true,
+            "under": true,
+            "against": "Simone"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F+0-3"
+          }
+        },
+        "14": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 + BB + F+1-1",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "16": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "A+SIMONE + U",
+            "under": true,
+            "against": "Simone"
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P+3-0"
+          }
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G+SALAH",
+            "golden_goal": "Salah"
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G + OV",
+            "over": true,
+            "gol": true
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G+HAALAND",
+            "golden_goal": "Haaland"
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "43": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB + A+SIMONE",
+            "best_bet": true,
+            "against": "Simone"
+          }
+        },
+        "61": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2 + P+0-1 G",
+            "doppia_chance": "2",
+            "gol": true
+          }
+        },
+        "62": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U + NG + F+0-0",
+            "under": true,
+            "no_gol": true
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+RONALDO",
+            "golden_goal": "Ronaldo"
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG + P+2-0",
+            "no_gol": true
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV G",
+            "over": true,
+            "gol": true
+          }
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2 + U + F+1-1",
+            "doppia_chance": "2",
+            "under": true
+          }
+        },
+        "70": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB + A+SIMONE",
+            "best_bet": true,
+            "against": "Simone"
+          }
+        },
+        "3": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G + OV",
+            "over": true,
+            "gol": true
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G+EMBOLO",
+            "golden_goal": "Embolo"
+          }
+        },
+        "26": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB + U + A+SIMONE + F+1-1",
+            "best_bet": true,
+            "under": true,
+            "against": "Simone"
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG + P+1-0",
+            "no_gol": true
+          }
+        },
+        "49": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "50": {
+          "pronostico": "X",
+          "combo": null
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG + G+PULISIC",
+            "no_gol": true,
+            "golden_goal": "Pulisic"
+          }
+        },
+        "8": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "29": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 + BB",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P+0-0"
+          }
+        },
+        "59": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "A+SIMONE + U + F+1-1",
+            "under": true,
+            "against": "Simone"
+          }
+        },
+        "60": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "33": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 + BB + U",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "36": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "A+SIMONE  + P+0-0",
+            "against": "Simone"
+          }
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G+MALEN + NG + OV",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Malen"
+          }
+        },
+        "58": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G + F+1-1",
+            "gol": true
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + G+JAMAL + NG + P+2-0",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Yamal"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "63": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB + A+SIMONE",
+            "best_bet": true,
+            "against": "Simone"
+          }
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2 + G+ U + F+2-2",
+            "doppia_chance": "2",
+            "under": true
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX + P+0-0",
+            "doppia_chance": "X"
+          }
+        },
+        "44": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB + A+SIMONE + U",
+            "best_bet": true,
+            "under": true,
+            "against": "Simone"
+          }
+        },
+        "71": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G + F+1-2",
+            "gol": true
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV + G+MESSI",
+            "over": true,
+            "golden_goal": "Messi"
+          }
+        },
+        "22": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "23": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U + G + F+1-1",
+            "under": true,
+            "gol": true
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G+KANE + OV + NG + P+0-1",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Kane"
+          }
+        },
+        "68": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB + A+SIMONE",
+            "best_bet": true,
+            "against": "Simone"
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "CURAÇAO",
+        "arbitro_finale": "TURPIN",
+        "partita_piu_goal": "GERMANIA-CURAÇAO",
+        "finale_vincitrice": null,
+        "capocannoniere": "HAALAND",
+        "gufo_contro": null
+      }
+    },
+    "Giampaolo": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + BB + G+Giménez + P1-0 + F2-1 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Jimenez",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "2-1"
+          }
+        },
+        "2": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+WALTER",
+            "against": "Walter"
+          }
+        },
+        "25": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "53": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "54": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+WALTER",
+            "against": "Walter"
+          }
+        },
+        "30": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + BB + G+Endrick + P2-0 + F3-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Endrick",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + BB + G+Musiala + P2-0 + F4-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Musiala",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "4-0"
+          }
+        },
+        "11": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+WALTER",
+            "against": "Walter"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "14": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A+ANDREA",
+            "against": "Andrea"
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV + BB + G+Lukaku + P1-0 + F3-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Lukaku",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+UMBERTO",
+            "against": "Umberto"
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + BB + G+Mbappé + P2-0 + F4-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Mbappé",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "4-0"
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "61": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+MARCO",
+            "against": "Marco"
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + BB + G+Ronaldo + P2-0 + F4-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Ronaldo",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "4-0"
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "69": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "70": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "3": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+WALTER",
+            "against": "Walter"
+          }
+        },
+        "26": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + BB + G+Amdouni + P1-0 + F2-1 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Amdouni",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "2-1"
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "49": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+WALTER",
+            "against": "Walter"
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + BB + G+Pulisic + P2-0 + F3-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Pulisic",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "59": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "60": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A+WALTER",
+            "against": "Walter"
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "36": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV + BB + G+Gakpo + P1-0 + F3-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Gakpo",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "58": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV + BB + G+Yamal + P2-0 + F4-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Yamal",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "4-0"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+GABRIELE",
+            "against": "Gabriele"
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "63": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A+FABIO",
+            "against": "Fabio"
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "71": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV + BB + G+Lautaro Martínez + P1-0 + F3-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Lautaro Martinez",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "22": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A+WALTER",
+            "against": "Walter"
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV + BB + G+Harry Kane + P2-0 + F4-0 NG",
+            "best_bet": true,
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Kane",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "4-0"
+          }
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "Curaçao",
+        "arbitro_finale": "Marciniak",
+        "partita_piu_goal": "Germania – Curaçao",
+        "finale_vincitrice": null,
+        "capocannoniere": "Mbappé",
+        "gufo_contro": null
+      }
+    },
+    "Lorenzo": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "2": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U- NG",
+            "under": true,
+            "no_gol": true
+          }
+        },
+        "25": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "53": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "54": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "30": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "11": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "14": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "61": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "70": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "3": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "26": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "49": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "8": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "59": {
+          "pronostico": "X",
+          "combo": null
+        },
+        "60": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "36": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "58": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "63": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "71": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "22": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "68": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "CURACAO",
+        "arbitro_finale": "MARCINIAK",
+        "partita_piu_goal": "BRAZILE – HAITI",
+        "finale_vincitrice": null,
+        "capocannoniere": "MBAPPÉ",
+        "gufo_contro": null
+      }
+    },
+    "Manuel": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG - F 2-0",
+            "no_gol": true,
+            "risultato_finale": "2-0"
+          }
+        },
+        "2": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "25": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV - G - G Son -",
+            "over": true,
+            "gol": true,
+            "golden_goal": "Son"
+          }
+        },
+        "53": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U - BB - P 0-0 - A Walter",
+            "best_bet": true,
+            "under": true,
+            "against": "Walter",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "54": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "6": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB - GG  - P 1-1 - DX1 - A Fabio",
+            "best_bet": true,
+            "gol": true,
+            "against": "Fabio",
+            "risultato_parziale": "1-1"
+          }
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "30": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 0-2",
+            "risultato_finale": "0-2"
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV - NG - G Vinicius",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Vinicius"
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV - NG - G Havertz",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Havertz"
+          }
+        },
+        "11": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "55": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB - GG - P 1-1 - F 1-1 - A Fabio",
+            "best_bet": true,
+            "gol": true,
+            "against": "Fabio",
+            "risultato_parziale": "1-1",
+            "risultato_finale": "1-1"
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "14": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB - D1 - GG - A Fabio",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "gol": true,
+            "against": "Fabio"
+          }
+        },
+        "16": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV - F 3-0",
+            "over": true,
+            "risultato_finale": "3-0"
+          }
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G Salah - P 0-0",
+            "golden_goal": "Salah",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G Mbappè NG",
+            "no_gol": true,
+            "golden_goal": "Mbappé"
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "61": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX - OV - GG - A Nino",
+            "doppia_chance": "X",
+            "over": true,
+            "gol": true,
+            "against": "Nino"
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P 0-0 - F 2-0 - BB - U",
+            "best_bet": true,
+            "under": true,
+            "risultato_parziale": "0-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G Ronaldo",
+            "golden_goal": "Ronaldo"
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG - F 3-0",
+            "no_gol": true,
+            "risultato_finale": "3-0"
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "OV - GG - BB - A Walter",
+            "best_bet": true,
+            "over": true,
+            "gol": true,
+            "against": "Walter"
+          }
+        },
+        "70": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P 0-0",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "3": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 0-2",
+            "risultato_finale": "0-2"
+          }
+        },
+        "26": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GG - OV",
+            "over": true,
+            "gol": true
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "49": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX -A Fabio",
+            "doppia_chance": "X",
+            "against": "Fabio"
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U - P 0-0 - G DEZKO",
+            "under": true,
+            "golden_goal": "Dezko",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "8": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2 - BB - A Wlater",
+            "doppia_chance": "2",
+            "best_bet": true
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV - F 2",
+            "over": true
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G Cahalanoglu",
+            "golden_goal": "Calhanoglu"
+          }
+        },
+        "59": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 1-2 - GG",
+            "gol": true,
+            "risultato_finale": "1-2"
+          }
+        },
+        "60": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U - P 0.0",
+            "under": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "10": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB - F 2-2 - A Umberto",
+            "best_bet": true,
+            "against": "Umberto",
+            "risultato_finale": "2-2"
+          }
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GG",
+            "gol": true
+          }
+        },
+        "36": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV - G Malen - NG",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Malen"
+          }
+        },
+        "58": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U - P 1-0",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV - G Yamal - NG",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Yamal"
+          }
+        },
+        "15": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB - D2 - A Giampaolo",
+            "doppia_chance": "2",
+            "best_bet": true,
+            "against": "Giampaolo"
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 2-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "63": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U - P 0-0",
+            "under": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "64": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "GG -",
+            "gol": true
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "44": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U - F 1-1",
+            "under": true,
+            "risultato_finale": "1-1"
+          }
+        },
+        "71": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "OV - BB - D2 - GG - A Fabio",
+            "doppia_chance": "2",
+            "best_bet": true,
+            "over": true,
+            "gol": true,
+            "against": "Fabio"
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G Lautaro - NG - P0-2",
+            "no_gol": true,
+            "golden_goal": "Lautaro Martinez",
+            "risultato_parziale": "0-2"
+          }
+        },
+        "22": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX - GG - OV",
+            "doppia_chance": "X",
+            "over": true,
+            "gol": true
+          }
+        },
+        "23": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "NG - P 0-0 - U - BB - A Umberto",
+            "best_bet": true,
+            "under": true,
+            "no_gol": true,
+            "against": "Umberto",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 0-2",
+            "risultato_finale": "0-2"
+          }
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G Kane",
+            "golden_goal": "Kane"
+          }
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": null
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "HAITI",
+        "arbitro_finale": "Marciniak",
+        "partita_piu_goal": "Norvegia - Senegal",
+        "finale_vincitrice": null,
+        "capocannoniere": "Lautaro Martinez",
+        "gufo_contro": null
+      }
+    },
+    "Marco": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Agaf,F2-0",
+            "against": "Gabriele",
+            "risultato_finale": "2-0"
+          }
+        },
+        "2": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2,NG",
+            "doppia_chance": "2",
+            "no_gol": true
+          }
+        },
+        "25": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P 0-0",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV, G",
+            "over": true,
+            "gol": true
+          }
+        },
+        "53": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "54": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U, Ggimenez",
+            "under": true
+          }
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "30": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB,U,P0-0",
+            "best_bet": true,
+            "under": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Awalter,OV,Gvinicius",
+            "over": true,
+            "against": "Walter"
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX, G,F0-2",
+            "doppia_chance": "X",
+            "gol": true,
+            "risultato_finale": "0-2"
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Aumberto,OV,Gmusiala",
+            "over": true,
+            "against": "Umberto"
+          }
+        },
+        "11": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2,BB",
+            "doppia_chance": "2",
+            "best_bet": true
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P0-0",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F2-1",
+            "risultato_finale": "2-1"
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U,G",
+            "under": true,
+            "gol": true
+          }
+        },
+        "14": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F2-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P0-0",
+            "under": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Gde ketelaere"
+          }
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX,NG",
+            "doppia_chance": "X",
+            "no_gol": true
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "Aroberto,OV",
+            "over": true,
+            "against": "Roberto"
+          }
+        },
+        "66": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB,G",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P0-0,",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV, Ghaaland",
+            "over": true
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Aandrea",
+            "against": "Andrea"
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U,G",
+            "under": true,
+            "gol": true
+          }
+        },
+        "61": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2, NG",
+            "doppia_chance": "2",
+            "no_gol": true
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB,F2-0",
+            "best_bet": true,
+            "risultato_finale": "2-0"
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Anino,",
+            "against": "Nino"
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Gdiaz,F2-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2,P0-0,NG",
+            "doppia_chance": "2",
+            "no_gol": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "70": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB,U",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "3": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1, G",
+            "doppia_chance": "1",
+            "gol": true
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "Afabio",
+            "against": "Fabio"
+          }
+        },
+        "26": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV, P0-0",
+            "over": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F1-0",
+            "risultato_finale": "1-0"
+          }
+        },
+        "49": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB, U, NG",
+            "best_bet": true,
+            "under": true,
+            "no_gol": true
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G Alajbegovic",
+            "golden_goal": "Alajbegovic"
+          }
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P1-0",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "Agp",
+            "against": "Giampaolo"
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV, Gpulisic",
+            "over": true
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F2-1",
+            "risultato_finale": "2-1"
+          }
+        },
+        "59": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1,U,G",
+            "doppia_chance": "1",
+            "under": true,
+            "gol": true
+          }
+        },
+        "60": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB,NG",
+            "best_bet": true,
+            "no_gol": true
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Asimone",
+            "against": "Simone"
+          }
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX,U,NG",
+            "doppia_chance": "X",
+            "under": true,
+            "no_gol": true
+          }
+        },
+        "36": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB,F1-1",
+            "best_bet": true,
+            "risultato_finale": "1-1"
+          }
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P0-0, Gmalen",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "58": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Amanuel,OV",
+            "over": true,
+            "against": "Manuel"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "Gyamal,F3-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P1-0",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "63": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB,NG",
+            "best_bet": true,
+            "no_gol": true
+          }
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2,U,G",
+            "doppia_chance": "2",
+            "under": true,
+            "gol": true
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F2-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U,P0-0",
+            "under": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB, NG",
+            "best_bet": true,
+            "no_gol": true
+          }
+        },
+        "71": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2,G",
+            "doppia_chance": "2",
+            "gol": true
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "Alorenzo,Glautaro",
+            "against": "Lorenzo"
+          }
+        },
+        "22": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX,NG",
+            "doppia_chance": "X",
+            "no_gol": true
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB,U",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P1-0",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "Amancuso,OV,Gkane",
+            "over": true
+          }
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F2-1",
+            "risultato_finale": "2-1"
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "Haiti",
+        "arbitro_finale": "Pinheiro",
+        "partita_piu_goal": "Brasile-Haiti",
+        "finale_vincitrice": null,
+        "capocannoniere": "Dembele",
+        "gufo_contro": null
+      }
+    },
+    "Nino": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, F 2-0, G Jiménez",
+            "no_gol": true,
+            "golden_goal": "Jimenez",
+            "risultato_finale": "2-0"
+          }
+        },
+        "2": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "25": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "28": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1, G, OV",
+            "doppia_chance": "1",
+            "over": true,
+            "gol": true
+          }
+        },
+        "53": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Fabio",
+            "against": "Fabio"
+          }
+        },
+        "54": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0, DX",
+            "doppia_chance": "X",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G, BB",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "30": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Walter",
+            "against": "Walter"
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, OV, F 4-0, G Vinícius",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Vinícius",
+            "risultato_finale": "4-0"
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, OV, F 4-0, G Havertz",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Havertz",
+            "risultato_finale": "4-0"
+          }
+        },
+        "11": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G, BB",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0, DX",
+            "doppia_chance": "X",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Giampaolo",
+            "against": "Giampaolo"
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "14": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G, BB",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0, DX",
+            "doppia_chance": "X",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Marco",
+            "against": "Marco"
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG, OV, F 0-4, G De Bruyne",
+            "over": true,
+            "gol": true,
+            "no_gol": true,
+            "risultato_finale": "0-4"
+          }
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G, BB",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, OV, F 4-0, G Mbappé",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Mbappé",
+            "risultato_finale": "4-0"
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "61": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "A Roberto",
+            "against": "Roberto"
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0, DX",
+            "doppia_chance": "X",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, OV, F 4-0, G Ronaldo",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Ronaldo",
+            "risultato_finale": "4-0"
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G, BB",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0, DX",
+            "doppia_chance": "X",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "A Manuel",
+            "against": "Manuel"
+          }
+        },
+        "70": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "3": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U, P 0-1",
+            "under": true,
+            "risultato_parziale": "0-1"
+          }
+        },
+        "26": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, F 2-0, G Embolo",
+            "no_gol": true,
+            "golden_goal": "Embolo",
+            "risultato_finale": "2-0"
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV, G",
+            "over": true,
+            "gol": true
+          }
+        },
+        "49": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX, BB",
+            "doppia_chance": "X",
+            "best_bet": true
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A Umberto",
+            "against": "Umberto"
+          }
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV, G",
+            "over": true,
+            "gol": true
+          }
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Gabriele",
+            "against": "Gabriele"
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, F 2-0, G Güler",
+            "no_gol": true,
+            "golden_goal": "Güler",
+            "risultato_finale": "2-0"
+          }
+        },
+        "59": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "60": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1, BB",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV, G",
+            "over": true,
+            "gol": true
+          }
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, F 2-0, G Gakpo",
+            "no_gol": true,
+            "golden_goal": "Gakpo",
+            "risultato_finale": "2-0"
+          }
+        },
+        "36": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Pasquale",
+            "against": "Pasquale"
+          }
+        },
+        "58": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX, BB",
+            "doppia_chance": "X",
+            "best_bet": true
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, OV, F 4-0, G Yamal",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Yamal",
+            "risultato_finale": "4-0"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Simone",
+            "against": "Simone"
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0, DX",
+            "doppia_chance": "X",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G, BB",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "63": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": null
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, OV, F 4-0, G Lautaro Martínez",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Lautaro Martinez",
+            "risultato_finale": "4-0"
+          }
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0, DX",
+            "doppia_chance": "X",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G, BB",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Andrea",
+            "against": "Andrea"
+          }
+        },
+        "71": {
+          "pronostico": "X",
+          "combo": null
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "22": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV, G",
+            "over": true,
+            "gol": true
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U, P 1-0",
+            "under": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG, F 3-0, G Kane",
+            "no_gol": true,
+            "golden_goal": "Kane",
+            "risultato_finale": "3-0"
+          }
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A Lorenzo",
+            "against": "Lorenzo"
+          }
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX, BB",
+            "doppia_chance": "X",
+            "best_bet": true
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "Curaçao",
+        "arbitro_finale": "Marciniak (Polonia)",
+        "partita_piu_goal": "Germania-Curaçao (n. 9)",
+        "finale_vincitrice": null,
+        "capocannoniere": "Mbappé (Francia)",
+        "gufo_contro": null
+      }
+    },
+    "Pasquale": {
+      "pronostici": {
+        "1": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 -U",
+            "doppia_chance": "1",
+            "under": true
+          }
+        },
+        "2": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "25": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "28": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "53": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "54": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 1-2",
+            "risultato_finale": "1-2"
+          }
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "30": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P 1-0",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 4-0",
+            "risultato_finale": "4-0"
+          }
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "11": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 3-1",
+            "risultato_finale": "3-1"
+          }
+        },
+        "55": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2 - U",
+            "doppia_chance": "2",
+            "under": true
+          }
+        },
+        "56": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "14": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB P 1-0",
+            "best_bet": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "38": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 1-3",
+            "risultato_finale": "1-3"
+          }
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "17": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 3-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "43": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV - DX",
+            "doppia_chance": "X",
+            "over": true
+          }
+        },
+        "61": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P 2-0",
+            "risultato_parziale": "2-0"
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "24": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 4-1",
+            "risultato_finale": "4-1"
+          }
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "70": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB U",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "3": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV – NG",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "26": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "27": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "49": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 3-0   P 1-0",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "50": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D2 - P 2-1",
+            "doppia_chance": "2",
+            "risultato_parziale": "2-1"
+          }
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "59": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 1-0",
+            "risultato_finale": "1-0"
+          }
+        },
+        "60": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "10": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "12": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 0-1",
+            "risultato_finale": "0-1"
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "36": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P 3-0",
+            "risultato_parziale": "3-0"
+          }
+        },
+        "58": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 5-0",
+            "risultato_finale": "5-0"
+          }
+        },
+        "15": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "63": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2",
+            "doppia_chance": "2"
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D2 BB",
+            "doppia_chance": "2",
+            "best_bet": true
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "44": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "71": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G – U",
+            "under": true,
+            "gol": true
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 0-2",
+            "risultato_finale": "0-2"
+          }
+        },
+        "22": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 2-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "23": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P 0-2",
+            "risultato_parziale": "0-2"
+          }
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG – OV",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "HAITI",
+        "arbitro_finale": "TURPIN",
+        "partita_piu_goal": "SPAGNA/CAPOVERDE",
+        "finale_vincitrice": null,
+        "capocannoniere": "YAMAL",
+        "gufo_contro": null
+      }
+    },
+    "Roberto": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "2": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P:0-1/F:0-2",
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-2"
+          }
+        },
+        "25": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB/Afabio/NG",
+            "best_bet": true,
+            "no_gol": true,
+            "against": "Fabio"
+          }
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "53": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GFOSTER",
+            "golden_goal": "Foster"
+          }
+        },
+        "54": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2/U",
+            "doppia_chance": "2",
+            "under": true
+          }
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "30": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "APASQUALE/G",
+            "gol": true,
+            "against": "Pasquale"
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV/NG/GVINICIUS",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "Vinicius"
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX/BB",
+            "doppia_chance": "X",
+            "best_bet": true
+          }
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P:0-0/F:0-2/U",
+            "under": true,
+            "risultato_parziale": "0-0",
+            "risultato_finale": "0-2"
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV/NG",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "11": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U/DX/ANINO/BB",
+            "doppia_chance": "X",
+            "best_bet": true,
+            "under": true,
+            "against": "Nino"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GHAVERTZ",
+            "golden_goal": "Havertz"
+          }
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P:0-1/F:0-2",
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-2"
+          }
+        },
+        "14": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GDEKETELARE/NG",
+            "no_gol": true,
+            "golden_goal": "De Ketelaere"
+          }
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "40": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U/G",
+            "under": true,
+            "gol": true
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX/ALORENZO/",
+            "doppia_chance": "X",
+            "against": "Lorenzo"
+          }
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P:0-0/F:1-0",
+            "risultato_parziale": "0-0",
+            "risultato_finale": "1-0"
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P:0-1/F:02",
+            "risultato_parziale": "0-1"
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "43": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G/BB/AFabio",
+            "best_bet": true,
+            "gol": true,
+            "against": "Fabio"
+          }
+        },
+        "61": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GHAALAND",
+            "golden_goal": "Haaland"
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX/U/NG",
+            "doppia_chance": "X",
+            "under": true,
+            "no_gol": true
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             GRONALDO",
+            "over": true,
+            "golden_goal": "Ronaldo"
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P:0-0/F-0-0",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "70": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX/AGABRIELE/BB/U",
+            "doppia_chance": "X",
+            "best_bet": true,
+            "under": true,
+            "against": "Gabriele"
+          }
+        },
+        "3": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "GEMBOLO",
+            "golden_goal": "Embolo"
+          }
+        },
+        "26": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB/G",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV/NG",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "49": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "ASIMONE/U",
+            "under": true,
+            "against": "Simone"
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P:2-0/F:3-0",
+            "risultato_parziale": "2-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "4": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "AWALTER/BB/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          P:0-0F:0-0",
+            "best_bet": true,
+            "against": "Walter",
+            "risultato_parziale": "0-0",
+            "risultato_finale": "0-0"
+          }
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    GAKTURKOGLU",
+            "over": true,
+            "golden_goal": "Akturkoglu"
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "59": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "60": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "10": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "12": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P:0-0/F:0-0",
+            "risultato_parziale": "0-0",
+            "risultato_finale": "0-0"
+          }
+        },
+        "33": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV/GYOKERES",
+            "over": true,
+            "golden_goal": "Gyokeres"
+          }
+        },
+        "36": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "57": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "AUMBERTO/BB/U/NG",
+            "best_bet": true,
+            "under": true,
+            "no_gol": true,
+            "against": "Umberto"
+          }
+        },
+        "58": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV/GYAMAL/",
+            "over": true,
+            "golden_goal": "Yamal"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P:0-2/F0-3",
+            "risultato_parziale": "0-2",
+            "risultato_finale": "0-3"
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "63": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "AGIAMPAOLO/BB/U",
+            "best_bet": true,
+            "under": true,
+            "against": "Giampaolo"
+          }
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2/G",
+            "doppia_chance": "2",
+            "gol": true
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GMESSI",
+            "golden_goal": "Messi"
+          }
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U/P:0-0/F:1-0",
+            "under": true,
+            "risultato_parziale": "0-0",
+            "risultato_finale": "1-0"
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "71": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1/AMANUEL/BB/G",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "gol": true,
+            "against": "Manuel"
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV/NG",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "22": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P:0-0/F:1-1/U",
+            "under": true,
+            "risultato_parziale": "0-0",
+            "risultato_finale": "1-1"
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX/NG/BB/AMARCO/G",
+            "doppia_chance": "X",
+            "best_bet": true,
+            "gol": true,
+            "no_gol": true,
+            "against": "Marco"
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GKANE/OV",
+            "over": true,
+            "golden_goal": "Kane"
+          }
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": null
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "GIORDANIA",
+        "arbitro_finale": "Araki (Giappone)",
+        "partita_piu_goal": "GIORDANIA - ARGENTINA",
+        "finale_vincitrice": "Squadra Vincitrice",
+        "capocannoniere": "MESSI",
+        "gufo_contro": null
+      }
+    },
+    "Simone": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P 1-0 G+Jimenez OV",
+            "over": true,
+            "golden_goal": "Jimenez",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "2": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "25": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "NG D1",
+            "doppia_chance": "1",
+            "no_gol": true
+          }
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U G",
+            "under": true,
+            "gol": true
+          }
+        },
+        "53": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A+Fabio F 1-2",
+            "against": "Fabio",
+            "risultato_finale": "1-2"
+          }
+        },
+        "54": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "6": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 BB F 1-1",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "risultato_finale": "1-1"
+          }
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G+Shankland",
+            "golden_goal": "Shankland"
+          }
+        },
+        "30": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U A+Giampaolo P 1-0",
+            "under": true,
+            "against": "Giampaolo",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G",
+            "gol": true
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "11": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U P 0-0 BB A+Nino",
+            "best_bet": true,
+            "under": true,
+            "against": "Nino",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G F 3-1",
+            "gol": true,
+            "risultato_finale": "3-1"
+          }
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG G+Valencia",
+            "no_gol": true,
+            "golden_goal": "Valencia"
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "14": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "GG P 0-0 U A+Pasquale",
+            "under": true,
+            "gol": true,
+            "against": "Pasquale",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB DX",
+            "doppia_chance": "X",
+            "best_bet": true
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G+Salah NG",
+            "gol": true,
+            "no_gol": true,
+            "golden_goal": "Salah"
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 3-0",
+            "risultato_finale": "3-0"
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U F 2-0",
+            "under": true,
+            "risultato_finale": "2-0"
+          }
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV G+Haaland",
+            "over": true,
+            "golden_goal": "Haaland"
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "43": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1  BB",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "61": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G  A+Andrea",
+            "gol": true,
+            "against": "Andrea"
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P 1-0",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV G+Ronaldo",
+            "over": true,
+            "golden_goal": "Ronaldo"
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "69": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G  BB F 2-2",
+            "best_bet": true,
+            "gol": true,
+            "risultato_finale": "2-2"
+          }
+        },
+        "70": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "UN DX  P 0-0 A+Manuel",
+            "doppia_chance": "X",
+            "against": "Manuel",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "3": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 A+Lorenzo BB G F 1-1",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "gol": true,
+            "against": "Lorenzo",
+            "risultato_finale": "1-1"
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "26": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV NG G+David",
+            "over": true,
+            "no_gol": true,
+            "golden_goal": "David"
+          }
+        },
+        "49": {
+          "pronostico": "X",
+          "combo": null
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P 2-0",
+            "risultato_parziale": "2-0"
+          }
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 2-1",
+            "risultato_finale": "2-1"
+          }
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G+Yildiz",
+            "golden_goal": "Yildiz"
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG U P 1-0",
+            "under": true,
+            "no_gol": true,
+            "risultato_parziale": "1-0"
+          }
+        },
+        "32": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G OV A+Gabriele",
+            "over": true,
+            "gol": true,
+            "against": "Gabriele"
+          }
+        },
+        "59": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX",
+            "doppia_chance": "X"
+          }
+        },
+        "60": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 2-1",
+            "risultato_finale": "2-1"
+          }
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG G+Gyokeres",
+            "no_gol": true,
+            "golden_goal": "Gyokeres"
+          }
+        },
+        "33": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 G BB",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "36": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "58": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U A+Walter P 0-0",
+            "under": true,
+            "against": "Walter",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV G+Torres",
+            "over": true,
+            "golden_goal": "Torres"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F 0-3 NG",
+            "no_gol": true,
+            "risultato_finale": "0-3"
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "63": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "G BB D2",
+            "doppia_chance": "2",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "64": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U P 0-0 A+Roberto",
+            "under": true,
+            "against": "Roberto",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "19": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 G",
+            "doppia_chance": "1",
+            "gol": true
+          }
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 2-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG G+Gouiri",
+            "no_gol": true,
+            "golden_goal": "Gouiri"
+          }
+        },
+        "71": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB U P 1-0 A+Umberto",
+            "best_bet": true,
+            "under": true,
+            "against": "Umberto",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "22": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Kane P 1-0",
+            "golden_goal": "Kane",
+            "risultato_parziale": "1-0"
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F 2-0 NG U",
+            "under": true,
+            "no_gol": true,
+            "risultato_finale": "2-0"
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "68": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1 G BB A+Marco",
+            "doppia_chance": "1",
+            "best_bet": true,
+            "gol": true,
+            "against": "Marco"
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "Haiti",
+        "arbitro_finale": "Kovacs",
+        "partita_piu_goal": "Germania - Curaçao",
+        "finale_vincitrice": null,
+        "capocannoniere": "Harry KANE",
+        "gufo_contro": null
+      }
+    },
+    "Umberto": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Jimenez\nNG",
+            "gol": true,
+            "no_gol": true,
+            "golden_goal": "Jimenez"
+          }
+        },
+        "2": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB\nG",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "25": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "D x",
+            "doppia_chance": "X"
+          }
+        },
+        "28": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "53": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U\nA+Fabio",
+            "under": true,
+            "against": "Fabio"
+          }
+        },
+        "54": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P(0-1)/F(0-2)",
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-2"
+          }
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Vinicius\nOV",
+            "over": true,
+            "golden_goal": "Vinicius"
+          }
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D 1\nA+Simone",
+            "doppia_chance": "1",
+            "against": "Simone"
+          }
+        },
+        "30": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB\nG",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P(0-1)/F(0-3)",
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-3"
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Havertz\nNG",
+            "gol": true,
+            "no_gol": true,
+            "golden_goal": "Havertz"
+          }
+        },
+        "11": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB\nD 1",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A+Andrea",
+            "against": "Andrea"
+          }
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "G\nU",
+            "under": true,
+            "gol": true
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P(0-1)/F(0-2)",
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-2"
+          }
+        },
+        "14": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+De Katelaere\nOV",
+            "over": true
+          }
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G\nA+Giampaolo",
+            "gol": true,
+            "against": "Giampaolo"
+          }
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D 1\nU",
+            "doppia_chance": "1",
+            "under": true
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P(0-1)/F(0-2)",
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-2"
+          }
+        },
+        "66": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV\nG+Mbappé",
+            "over": true,
+            "golden_goal": "Mbappé"
+          }
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB\nD 1",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G\nA+Pasquale",
+            "gol": true,
+            "against": "Pasquale"
+          }
+        },
+        "61": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P(1-0)/F(2-0)",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Ronaldo\nNG",
+            "gol": true,
+            "no_gol": true,
+            "golden_goal": "Ronaldo"
+          }
+        },
+        "24": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D 1\nU",
+            "doppia_chance": "1",
+            "under": true
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV\nA+Lorenzo",
+            "over": true,
+            "against": "Lorenzo"
+          }
+        },
+        "48": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "69": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB\nG",
+            "best_bet": true,
+            "gol": true
+          }
+        },
+        "70": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P(0-0)/F(1-1)",
+            "risultato_parziale": "0-0",
+            "risultato_finale": "1-1"
+          }
+        },
+        "3": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV\nG+David",
+            "over": true,
+            "golden_goal": "David"
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D 1\nA+Roberto",
+            "doppia_chance": "1",
+            "against": "Roberto"
+          }
+        },
+        "26": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G\nU",
+            "under": true,
+            "gol": true
+          }
+        },
+        "49": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P(1-0)/F(2-0)",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "2-0"
+          }
+        },
+        "4": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Pulisic",
+            "golden_goal": "Pulisic"
+          }
+        },
+        "8": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB\nD 2",
+            "doppia_chance": "2",
+            "best_bet": true
+          }
+        },
+        "29": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV\nG",
+            "over": true,
+            "gol": true
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG\nA+Marco",
+            "no_gol": true,
+            "against": "Marco"
+          }
+        },
+        "59": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "60": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P(1-0)/F(1-1)",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "1-1"
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV\nG+Gakpo",
+            "over": true,
+            "golden_goal": "Gakpo"
+          }
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G\nA+Walter",
+            "gol": true,
+            "against": "Walter"
+          }
+        },
+        "36": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB\nD 1",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "58": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P(1-0)/F(2-1)",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "2-1"
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Yamal",
+            "golden_goal": "Yamal"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB\nD 1",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV\nNG",
+            "over": true,
+            "no_gol": true
+          }
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G\nA+Nino",
+            "gol": true,
+            "against": "Nino"
+          }
+        },
+        "63": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "64": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P(0-1)/F(0-2)",
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-2"
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Messi\nOV",
+            "over": true,
+            "golden_goal": "Messi"
+          }
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G\nD x",
+            "doppia_chance": "X",
+            "gol": true
+          }
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB\nA+Manuel",
+            "best_bet": true,
+            "against": "Manuel"
+          }
+        },
+        "71": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P(0-1)/F(0-2)",
+            "risultato_parziale": "0-1",
+            "risultato_finale": "0-2"
+          }
+        },
+        "22": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G+Kane\nG",
+            "golden_goal": "Kane"
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB\nD 1",
+            "doppia_chance": "1",
+            "best_bet": true
+          }
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U\nA+Gabriele",
+            "under": true,
+            "against": "Gabriele"
+          }
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P(1-0)/F(2-1)",
+            "risultato_parziale": "1-0",
+            "risultato_finale": "2-1"
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "CURAZAO",
+        "arbitro_finale": "MARCINIAK (Polonia)",
+        "partita_piu_goal": "Partita 9 - Germania-Curazao",
+        "finale_vincitrice": null,
+        "capocannoniere": "Kane (Inghilterra)",
+        "gufo_contro": null
+      }
+    },
+    "Walter": {
+      "pronostici": {
+        "1": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX-P(0-0)-GG(GIMENEZ)",
+            "doppia_chance": "X",
+            "golden_goal": "Jimenez",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "2": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "25": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "A-GP",
+            "against": "Giampaolo"
+          }
+        },
+        "28": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "U-NG",
+            "under": true,
+            "no_gol": true
+          }
+        },
+        "53": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F(1-2)BB",
+            "best_bet": true,
+            "risultato_finale": "1-2"
+          }
+        },
+        "54": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "OV-G",
+            "over": true,
+            "gol": true
+          }
+        },
+        "6": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV-G - F(4-2)",
+            "over": true,
+            "gol": true,
+            "risultato_finale": "4-2"
+          }
+        },
+        "7": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U",
+            "under": true
+          }
+        },
+        "30": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX-A-NOA",
+            "doppia_chance": "X"
+          }
+        },
+        "31": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG-GVINICIUS-BB",
+            "best_bet": true,
+            "no_gol": true,
+            "golden_goal": "Vinicius"
+          }
+        },
+        "51": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "52": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P(0-0)",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "9": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG-GG(VINICIUS)",
+            "no_gol": true,
+            "golden_goal": "Vinicius"
+          }
+        },
+        "11": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX-A-LORENZO-U",
+            "doppia_chance": "X",
+            "under": true,
+            "against": "Lorenzo"
+          }
+        },
+        "34": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV-G",
+            "over": true,
+            "gol": true
+          }
+        },
+        "35": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "55": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F(0-2)-BB",
+            "best_bet": true,
+            "risultato_finale": "0-2"
+          }
+        },
+        "56": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "P(0-2)",
+            "risultato_parziale": "0-2"
+          }
+        },
+        "14": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV-G-P(1-1)",
+            "over": true,
+            "gol": true,
+            "risultato_parziale": "1-1"
+          }
+        },
+        "16": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A-GAF-BB",
+            "best_bet": true,
+            "against": "Gabriele"
+          }
+        },
+        "38": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "40": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX-F(0-1)",
+            "doppia_chance": "X",
+            "risultato_finale": "0-1"
+          }
+        },
+        "65": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "66": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U-NG-GG(SALAH)",
+            "under": true,
+            "no_gol": true,
+            "golden_goal": "Salah"
+          }
+        },
+        "17": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "18": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "F(0-3)-GG(HAALAND)",
+            "golden_goal": "Haaland",
+            "risultato_finale": "0-3"
+          }
+        },
+        "42": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "43": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A-PASQUALE-BB",
+            "best_bet": true,
+            "against": "Pasquale"
+          }
+        },
+        "61": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2-OV-G",
+            "doppia_chance": "2",
+            "over": true,
+            "gol": true
+          }
+        },
+        "62": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U-P(0-0-)",
+            "under": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "21": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG-GG(RONALDO)",
+            "no_gol": true,
+            "golden_goal": "Ronaldo"
+          }
+        },
+        "24": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "BB-P(0-0)",
+            "best_bet": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "45": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A-NOA-OV",
+            "over": true
+          }
+        },
+        "48": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1-G",
+            "doppia_chance": "1",
+            "gol": true
+          }
+        },
+        "69": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "70": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "U-F(1-2)",
+            "under": true,
+            "risultato_finale": "1-2"
+          }
+        },
+        "3": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D2-P(0-1)",
+            "doppia_chance": "2",
+            "risultato_parziale": "0-1"
+          }
+        },
+        "5": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB",
+            "best_bet": true
+          }
+        },
+        "26": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "OV-G-F(2-2)",
+            "over": true,
+            "gol": true,
+            "risultato_finale": "2-2"
+          }
+        },
+        "27": {
+          "pronostico": "1",
+          "combo": null
+        },
+        "49": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A-FABIO-U",
+            "under": true,
+            "against": "Fabio"
+          }
+        },
+        "50": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG-GG(DZEKO)",
+            "no_gol": true,
+            "golden_goal": "Dzeko"
+          }
+        },
+        "4": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P(0-0)",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "8": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "OV-BB",
+            "best_bet": true,
+            "over": true
+          }
+        },
+        "29": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A-ANDREA",
+            "against": "Andrea"
+          }
+        },
+        "32": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GG(CHALANOGLU)",
+            "golden_goal": "Calhanoglu"
+          }
+        },
+        "59": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "DX-G-F(2-1)",
+            "doppia_chance": "X",
+            "gol": true,
+            "risultato_finale": "2-1"
+          }
+        },
+        "60": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U-NG",
+            "under": true,
+            "no_gol": true
+          }
+        },
+        "10": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV",
+            "over": true
+          }
+        },
+        "12": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "A-NINO",
+            "against": "Nino"
+          }
+        },
+        "33": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U-P(0-0)",
+            "under": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "36": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "D1",
+            "doppia_chance": "1"
+          }
+        },
+        "57": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG-GG(MALEN)-BB",
+            "best_bet": true,
+            "no_gol": true,
+            "golden_goal": "Malen"
+          }
+        },
+        "58": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "G-F(2-2)",
+            "gol": true,
+            "risultato_finale": "2-2"
+          }
+        },
+        "13": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV-F(2-0)",
+            "over": true,
+            "risultato_finale": "2-0"
+          }
+        },
+        "15": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "A-GP",
+            "against": "Giampaolo"
+          }
+        },
+        "37": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "GG(YAMAL)",
+            "golden_goal": "Yamal"
+          }
+        },
+        "39": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "63": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "BB-U",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "64": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX-G-P(0-0)",
+            "doppia_chance": "X",
+            "gol": true,
+            "risultato_parziale": "0-0"
+          }
+        },
+        "19": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F(3-0)",
+            "risultato_finale": "3-0"
+          }
+        },
+        "20": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "U-G",
+            "under": true,
+            "gol": true
+          }
+        },
+        "41": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "OV-GG(LAUTARO)",
+            "over": true,
+            "golden_goal": "Lautaro Martinez"
+          }
+        },
+        "44": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "DX-A-ROBERTO-BB",
+            "doppia_chance": "X",
+            "best_bet": true,
+            "against": "Roberto"
+          }
+        },
+        "71": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "P(0-0)",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "72": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG",
+            "no_gol": true
+          }
+        },
+        "22": {
+          "pronostico": "X",
+          "combo": {
+            "raw": "D1-A-MARCO-OV-G",
+            "doppia_chance": "1",
+            "over": true,
+            "gol": true,
+            "against": "Marco"
+          }
+        },
+        "23": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "BB-U",
+            "best_bet": true,
+            "under": true
+          }
+        },
+        "46": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "P(0-0)",
+            "risultato_parziale": "0-0"
+          }
+        },
+        "47": {
+          "pronostico": "2",
+          "combo": null
+        },
+        "67": {
+          "pronostico": "2",
+          "combo": {
+            "raw": "NG-GG(KANE)",
+            "no_gol": true,
+            "golden_goal": "Kane"
+          }
+        },
+        "68": {
+          "pronostico": "1",
+          "combo": {
+            "raw": "F(2-1)",
+            "risultato_finale": "2-1"
+          }
+        }
+      },
+      "speciali": {
+        "prima_eliminata": "HAITI",
+        "arbitro_finale": "MARCHINIAK",
+        "partita_piu_goal": "NORVEGIA-FRANCIA",
+        "finale_vincitrice": null,
+        "capocannoniere": "HAALAND",
+        "gufo_contro": null
+      }
+    }
+  }
+}
