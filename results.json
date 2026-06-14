@@ -62,5 +62,21 @@
     "trasferta_1t": 0,
     "marcatori": "Irankunda, Metcalfe",
     "completata": true
+  },
+  "9": {
+    "casa": 7,
+    "trasferta": 1,
+    "casa_1t": 3,
+    "trasferta_1t": 1,
+    "marcatori": "Nmecha, Comenencia, Schlotterbeck, Havertz, Musiala, Brown, Undav",
+    "completata": true
+  },
+  "10": {
+    "casa": 2,
+    "trasferta": 2,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Van Dijk, Nakamura, Summerville, Kamada",
+    "completata": true
   }
 }
