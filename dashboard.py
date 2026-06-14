@@ -290,12 +290,14 @@ def build_report(data, results, corrections, pname):
         ccc=0
         if pr:
             counts["1/X/2"]["Pron."]+=1
-            if done:(counts["1/X/2"]["✅"] if pc else counts["1/X/2"])["❌" if not pc else "✅"];counts["1/X/2"]["✅" if pc else "❌"]+=1
+            if done:
+                if pc: counts["1/X/2"]["✅"]+=1
+                else: counts["1/X/2"]["❌"]+=1
             else:counts["1/X/2"]["Residue"]+=1
         dc=combo.get("doppia_chance")
         if dc:
             counts["DC"]["Pron."]+=1
-            if completed:
+            if done:
                 if pc:
                     pass  # non valutata: non conta come corretta né sbagliata
                 else:
