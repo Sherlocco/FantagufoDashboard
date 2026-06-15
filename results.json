@@ -78,5 +78,21 @@
     "trasferta_1t": 0,
     "marcatori": "Van Dijk, Nakamura, Summerville, Kamada",
     "completata": true
+  },
+  "11": {
+    "casa": 1,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Diallo",
+    "completata": true
+  },
+  "12": {
+    "casa": 5,
+    "trasferta": 1,
+    "casa_1t": 2,
+    "trasferta_1t": 1,
+    "marcatori": "Ayari, Isak, Rekik, Gyokeres, Svanberg",
+    "completata": true
   }
 }
