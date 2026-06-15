@@ -94,5 +94,21 @@
     "trasferta_1t": 1,
     "marcatori": "Ayari, Isak, Rekik, Gyokeres, Svanberg",
     "completata": true
+  },
+  "13": {
+    "casa": 0,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "",
+    "completata": true
+  },
+  "14": {
+    "casa": 1,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Ashour, Hani (Aut.)",
+    "completata": true
   }
 }
