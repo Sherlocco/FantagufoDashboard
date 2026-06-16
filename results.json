@@ -126,5 +126,13 @@
     "trasferta_1t": 1,
     "marcatori": "Just, Rezaeian, Mohebi",
     "completata": true
+  },
+  "17": {
+    "casa": 3,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Mbappe, Barcola, Mbaye",
+    "completata": true
   }
 }
