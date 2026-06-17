@@ -158,5 +158,21 @@
     "trasferta_1t": 0,
     "marcatori": "Schmid, Olwan, Al Arab(Aut), Arnautovic",
     "completata": true
+  },
+  "21": {
+    "casa": 1,
+    "trasferta": 1,
+    "casa_1t": 1,
+    "trasferta_1t": 1,
+    "marcatori": "Neves, Wissa",
+    "completata": true
+  },
+  "22": {
+    "casa": 4,
+    "trasferta": 2,
+    "casa_1t": 2,
+    "trasferta_1t": 2,
+    "marcatori": "Kane, Baturina, Musa, Bellingham, Rashford",
+    "completata": true
   }
 }
