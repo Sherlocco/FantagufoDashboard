@@ -134,5 +134,29 @@
     "trasferta_1t": 0,
     "marcatori": "Mbappé, Barcola, Mbaye",
     "completata": true
+  },
+  "18": {
+    "casa": 1,
+    "trasferta": 4,
+    "casa_1t": 1,
+    "trasferta_1t": 2,
+    "marcatori": "Haaland, Hussein, Ostigard, Hussein(Aut)",
+    "completata": true
+  },
+  "19": {
+    "casa": 3,
+    "trasferta": 0,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Messi",
+    "completata": true
+  },
+  "20": {
+    "casa": 3,
+    "trasferta": 1,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Schmid, Olwan, Al Arab(Aut), Arnautovic",
+    "completata": true
   }
 }
