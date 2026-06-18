@@ -190,5 +190,21 @@
     "trasferta_1t": 1,
     "marcatori": "Munoz, Fayzullaev, Diaz, Campaz",
     "completata": true
+  },
+  "25": {
+    "casa": 1,
+    "trasferta": 1,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Sadilek, Mokoena",
+    "completata": true
+  },
+  "26": {
+    "casa": 4,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Manzambi, Vargas, Mahmic, Xhaka",
+    "completata": true
   }
 }
