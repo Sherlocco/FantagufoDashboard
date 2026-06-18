@@ -174,5 +174,21 @@
     "trasferta_1t": 2,
     "marcatori": "Kane, Baturina, Musa, Bellingham, Rashford",
     "completata": true
+  },
+  "23": {
+    "casa": 1,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Yirenkyi",
+    "completata": true
+  },
+  "24": {
+    "casa": 1,
+    "trasferta": 3,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Munoz, Fayzullaev, Diaz, Campaz",
+    "completata": true
   }
 }
