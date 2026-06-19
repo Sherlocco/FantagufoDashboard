@@ -206,5 +206,21 @@
     "trasferta_1t": 0,
     "marcatori": "Manzambi, Vargas, Mahmic, Xhaka",
     "completata": true
+  },
+  "28": {
+    "casa": 1,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Romo",
+    "completata": true
+  },
+  "27": {
+    "casa": 6,
+    "trasferta": 0,
+    "casa_1t": 3,
+    "trasferta_1t": 0,
+    "marcatori": "Larin, David, Saliba, Al Mannai(Aut)",
+    "completata": true
   }
 }
