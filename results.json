@@ -222,5 +222,85 @@
     "trasferta_1t": 0,
     "marcatori": "Larin, David, Saliba, Al Mannai(Aut)",
     "completata": true
+  },
+  "29": {
+    "casa": 2,
+    "trasferta": 0,
+    "casa_1t": 2,
+    "trasferta_1t": 0,
+    "marcatori": "Burgess(AUT), Freeman",
+    "completata": true
+  },
+  "32": {
+    "casa": 0,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Galarza",
+    "completata": true
+  },
+  "30": {
+    "casa": 0,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Saibari",
+    "completata": true
+  },
+  "31": {
+    "casa": 3,
+    "trasferta": 0,
+    "casa_1t": 3,
+    "trasferta_1t": 0,
+    "marcatori": "Cunha, Vinicius",
+    "completata": true
+  },
+  "35": {
+    "casa": 0,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "",
+    "completata": true
+  },
+  "34": {
+    "casa": 2,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Kessie, Undav",
+    "completata": true
+  },
+  "33": {
+    "casa": 5,
+    "trasferta": 1,
+    "casa_1t": 2,
+    "trasferta_1t": 0,
+    "marcatori": "Brobbey, Gakpo, Elanga, Summerville",
+    "completata": true
+  },
+  "36": {
+    "casa": 0,
+    "trasferta": 4,
+    "casa_1t": 0,
+    "trasferta_1t": 2,
+    "marcatori": "Kamada, Ueda, Ito",
+    "completata": true
+  },
+  "37": {
+    "casa": 4,
+    "trasferta": 0,
+    "casa_1t": 3,
+    "trasferta_1t": 0,
+    "marcatori": "Yamal, Oyarzabal, Tambakty(AUT)",
+    "completata": true
+  },
+  "38": {
+    "casa": 0,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "",
+    "completata": true
   }
 }
