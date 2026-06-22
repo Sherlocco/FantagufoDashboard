@@ -302,5 +302,21 @@
     "trasferta_1t": 0,
     "marcatori": "",
     "completata": true
+  },
+  "40": {
+    "casa": 1,
+    "trasferta": 3,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Surman, Ziko, Salah, Trezeguet",
+    "completata": true
+  },
+  "39": {
+    "casa": 2,
+    "trasferta": 2,
+    "casa_1t": 2,
+    "trasferta_1t": 1,
+    "marcatori": "Lenini, Araujo, Canobbio, Varela",
+    "completata": true
   }
 }
