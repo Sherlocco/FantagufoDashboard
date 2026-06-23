@@ -318,5 +318,37 @@
     "trasferta_1t": 1,
     "marcatori": "Lenini, Araujo, Canobbio, Varela",
     "completata": true
+  },
+  "41": {
+    "casa": 2,
+    "trasferta": 0,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Messi",
+    "completata": true
+  },
+  "42": {
+    "casa": 3,
+    "trasferta": 0,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Mbappé, Mbappé, Dembele",
+    "completata": true
+  },
+  "43": {
+    "casa": 3,
+    "trasferta": 2,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Pedersen, Haaland, Sarr, ",
+    "completata": true
+  },
+  "44": {
+    "casa": 1,
+    "trasferta": 2,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Al Rashdan, Benbouali, Gouiri",
+    "completata": true
   }
 }
