@@ -350,5 +350,37 @@
     "trasferta_1t": 0,
     "marcatori": "Al Rashdan, Benbouali, Gouiri",
     "completata": true
+  },
+  "45": {
+    "casa": 5,
+    "trasferta": 0,
+    "casa_1t": 3,
+    "trasferta_1t": 0,
+    "marcatori": "Ronaldo, Mendes, Leao, Nematov(AUT)",
+    "completata": true
+  },
+  "48": {
+    "casa": 1,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Munoz",
+    "completata": true
+  },
+  "46": {
+    "casa": 0,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "",
+    "completata": true
+  },
+  "47": {
+    "casa": 0,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Budimir",
+    "completata": true
   }
 }
