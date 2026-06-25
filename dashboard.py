@@ -7,6 +7,7 @@ import json
 import os
 import pandas as pd
 from collections import defaultdict
+import plotly.graph_objects as go
 
 st.set_page_config(page_title="🦉 Fanta Gufo 2026 — Dashboard", page_icon="🦉", layout="wide")
 
@@ -399,8 +400,11 @@ def build_os_analysis(data, results, corrections):
                     ccw=cc+1;sc_in=grp in sc_base[p]
                     if ccw>=3 and not sc_in:
                         row[p]=f"{cc}✅ → 🔥+3";grid_styles[(ri,p)]="fire";val=3
+                    elif ccw>=3 and sc_in:
+                        row[p]=f"{cc}✅ → ⭐+1";grid_styles[(ri,p)]="purple";val=1
                     else:
                         row[p]=f"{cc}✅ → +1";grid_styles[(ri,p)]="green";val=1
+
                 if val>gi_best[p].get(grp,0):gi_best[p][grp]=val
             grid_rows.append(row);ri+=1
     sum_rows=[]
@@ -414,6 +418,7 @@ def style_os_grid(df, gs):
         if c not in PARTICIPANTS:return ""
         s=gs.get((ri,c))
         if s=="fire":return "background-color:#fed7aa;color:#9a3412;font-weight:bold"
+        if s=="purple":return "background-color:#e9d5ff;color:#6b21a8;font-weight:bold"
         if s=="green":return "background-color:#d1fae5;color:#065f46"
         if s=="gray":return "background-color:#f1f5f9;color:#94a3b8"
         return ""
@@ -428,60 +433,66 @@ def style_os_grid(df, gs):
 # IPOTESI TRUMP BOMB
 # ═══════════════════════════════════════════════════════════
 def build_trump_analysis(data, results, corrections):
-    """Analisi what-if Trump Bomb: per ogni giocatore, quanto perderebbe per girone."""
+    """Analisi what-if Trump Bomb: range estremi + range realistico (mediana top5)."""
+    import statistics
     scores = calculate_scores(data, results, corrections)
 
-    # Grid: rows = participants, columns = gironi
     grid_rows = []
-    player_gironi = {}  # pname -> {grp: pts}
+    player_gironi = {}
 
     for pname in PARTICIPANTS:
         if pname not in scores:
             continue
         s = scores[pname]
-        gironi_pts = {}
+        gironi_pts = {g: round(s["gironi"].get(g, 0), 1) for g in GROUPS}
         row = {"Partecipante": pname}
         for g in GROUPS:
-            pts = round(s["gironi"].get(g, 0), 1)
-            gironi_pts[g] = pts
-            row[g] = pts
+            row[g] = gironi_pts[g]
         row["TOTALE"] = s["totale"]
         player_gironi[pname] = gironi_pts
         grid_rows.append(row)
 
     grid_df = pd.DataFrame(grid_rows)
 
-    # Summary
-    sum_rows = []
+    # === TABELLA 1: Range estremi (forchetta ampia) ===
+    range_rows = []
     for pname in PARTICIPANTS:
         if pname not in player_gironi:
             continue
         gp = player_gironi[pname]
-        non_zero = {g: p for g, p in gp.items() if p > 0}
-        if non_zero:
-            worst_g = max(non_zero, key=non_zero.get)
-            worst_pts = non_zero[worst_g]
-            best_g = min(non_zero, key=non_zero.get)
-            best_pts = non_zero[best_g]
-        else:
-            worst_g = "-"; worst_pts = 0; best_g = "-"; best_pts = 0
-
-        sum_rows.append({
+        sorted_g = sorted(gp.items(), key=lambda x: x[1])
+        min_g, min_pts = sorted_g[0]
+        max_g, max_pts = sorted_g[-1]
+        range_rows.append({
             "Partecipante": pname,
-            "Girone peggiore": worst_g,
-            "Punti girone": worst_pts,
-            "Se dimezzato": f"-{worst_pts/2:.1f}",
-            "Se azzerato": f"-{worst_pts:.1f}",
-            "Girone migliore": best_g,
-            "Punti girone ": best_pts,
-            "Se dimezzato ": f"-{best_pts/2:.1f}",
-            "Se azzerato ": f"-{best_pts:.1f}",
+            "🟢 Girone min": min_g,
+            "Punti min": min_pts,
+            "🟢 Best (dimezz.)": f"-{min_pts/2:.1f}",
+            "🔴 Girone max": max_g,
+            "Punti max": max_pts,
+            "🔴 Worst (azzer.)": f"-{max_pts:.1f}",
         })
+    range_df = pd.DataFrame(range_rows)
 
-    sum_df = pd.DataFrame(sum_rows)
-    return grid_df, player_gironi, sum_df
+    # === TABELLA 2: Range realistico (mediana top5) ===
+    realistic_rows = []
+    for pname in PARTICIPANTS:
+        if pname not in player_gironi:
+            continue
+        gp = player_gironi[pname]
+        sorted_pts = sorted(gp.values(), reverse=True)
+        top5 = sorted_pts[:5]
+        med = statistics.median(top5)
+        realistic_rows.append({
+            "Partecipante": pname,
+            "Top 5 punti": ", ".join(f"{p:.1f}" for p in top5),
+            "Mediana top5": round(med, 1),
+            "🟡 Realistico min (dimezz.)": f"-{med/2:.1f}",
+            "🟡 Realistico max (azzer.)": f"-{med:.1f}",
+        })
+    realistic_df = pd.DataFrame(realistic_rows)
 
-
+    return grid_df, player_gironi, range_df, realistic_df
 def style_trump_grid(df, player_gironi):
     """Colora: rosso = girone con più punti, verde = girone con meno punti >0."""
     def bg(val, pname, col):
@@ -517,6 +528,105 @@ def style_trump_grid(df, player_gironi):
     styled = styled.set_properties(**{"font-size": "14px"})
     styled = styled.format({g: "{:.1f}" for g in GROUPS} | {"TOTALE": "{:.1f}"})
     return styled
+
+
+def build_trump_range_chart(scores, range_df, realistic_df):
+    """Grafico Plotly con range estremo + range realistico per ogni partecipante."""
+    # Ordina per totale decrescente (top in alto)
+    sorted_p = sorted(scores.keys(), key=lambda p: scores[p]["totale"], reverse=True)
+
+    names = []
+    totals = []
+    best_finals = []      # totale - perdita best (dimezzato su min)
+    worst_finals = []     # totale - perdita worst (azzerato su max)
+    real_min_finals = []  # totale - dimezz. su mediana top5
+    real_max_finals = []  # totale - azzer. su mediana top5
+
+    for p in sorted_p:
+        if p not in range_df["Partecipante"].values:
+            continue
+        tot = scores[p]["totale"]
+        r = range_df[range_df["Partecipante"] == p].iloc[0]
+        rl = realistic_df[realistic_df["Partecipante"] == p].iloc[0]
+
+        # Le stringhe sono tipo "-3.5" → ricostruisco il float negativo
+        def parse_loss(s):
+            s = str(s).strip().replace("--", "-")
+            return float(s)
+        best_loss = parse_loss(r["🟢 Best (dimezz.)"])
+        worst_loss = parse_loss(r["🔴 Worst (azzer.)"])
+        real_min_loss = parse_loss(rl["🟡 Realistico min (dimezz.)"])
+        real_max_loss = parse_loss(rl["🟡 Realistico max (azzer.)"])
+
+        names.append(p)
+        totals.append(tot)
+        best_finals.append(tot + best_loss)
+        worst_finals.append(tot + worst_loss)
+        real_min_finals.append(tot + real_min_loss)
+        real_max_finals.append(tot + real_max_loss)
+
+    fig = go.Figure()
+
+    # Range estremo (linea sottile grigia)
+    for i, n in enumerate(names):
+        fig.add_trace(go.Scatter(
+            x=[worst_finals[i], best_finals[i]],
+            y=[n, n],
+            mode="lines",
+            line=dict(color="#cbd5e1", width=4),
+            showlegend=(i == 0),
+            name="Range estremo",
+            hoverinfo="skip",
+        ))
+
+    # Range realistico (linea spessa colorata)
+    for i, n in enumerate(names):
+        fig.add_trace(go.Scatter(
+            x=[real_max_finals[i], real_min_finals[i]],
+            y=[n, n],
+            mode="lines",
+            line=dict(color="#f59e0b", width=10),
+            showlegend=(i == 0),
+            name="Range realistico",
+            hovertemplate=f"<b>{n}</b><br>Realistico: %{{x:.1f}}<extra></extra>",
+        ))
+
+    # Punto del totale attuale
+    fig.add_trace(go.Scatter(
+        x=totals, y=names,
+        mode="markers",
+        marker=dict(color="#1e40af", size=12, symbol="diamond",
+                    line=dict(color="white", width=2)),
+        name="Totale attuale",
+        hovertemplate="<b>%{y}</b><br>Totale: %{x:.1f}<extra></extra>",
+    ))
+
+    # Markers per estremi
+    fig.add_trace(go.Scatter(
+        x=best_finals, y=names, mode="markers",
+        marker=dict(color="#22c55e", size=8, symbol="triangle-right"),
+        name="🟢 Best", hovertemplate="<b>%{y}</b><br>Best: %{x:.1f}<extra></extra>",
+    ))
+    fig.add_trace(go.Scatter(
+        x=worst_finals, y=names, mode="markers",
+        marker=dict(color="#ef4444", size=8, symbol="triangle-left"),
+        name="🔴 Worst", hovertemplate="<b>%{y}</b><br>Worst: %{x:.1f}<extra></extra>",
+    ))
+
+    fig.update_layout(
+        title="Forchetta punteggio finale dopo Trump Bomb",
+        xaxis_title="Punteggio finale stimato",
+        yaxis_title="",
+        height=500,
+        yaxis=dict(autorange="reversed"),  # primo in alto
+        plot_bgcolor="white",
+        hovermode="closest",
+        legend=dict(orientation="h", y=-0.15),
+        margin=dict(l=120, r=40, t=60, b=80),
+    )
+    fig.update_xaxes(gridcolor="#e2e8f0", showgrid=True)
+    return fig
+
 
 # ═══════════════════════════════════════════════════════════
 # MAIN
@@ -611,7 +721,7 @@ def main():
                 ds=ns
             if len(dd)==0:st.info("Nessuna partita.")
             else:st.dataframe(style_os_grid(dd,ds),use_container_width=True,height=700)
-            st.markdown("""<div style="font-size:12px;margin-top:10px"><span style="background:#fed7aa;padding:2px 8px;border-radius:4px">🔥+3 OS attiva SC!</span>&nbsp;<span style="background:#d1fae5;padding:2px 8px;border-radius:4px">+1 OS utile</span>&nbsp;<span style="background:#f1f5f9;padding:2px 8px;border-radius:4px">— Prono sbagliato</span></div>""",unsafe_allow_html=True)
+            st.markdown("""<div style="font-size:12px;margin-top:10px"><span style="background:#fed7aa;padding:2px 8px;border-radius:4px">🔥+3 OS attiva SC!</span>&nbsp;&nbsp;<span style="background:#e9d5ff;padding:2px 8px;border-radius:4px">⭐+1 SC potenziale (già usata nel girone)</span>&nbsp;<span style="background:#d1fae5;padding:2px 8px;border-radius:4px">+1 OS utile</span>&nbsp;<span style="background:#f1f5f9;padding:2px 8px;border-radius:4px">— Prono sbagliato</span></div>""",unsafe_allow_html=True)
 
     with tab6:
         st.header("💣 Ipotesi Trump Bomb")
@@ -622,7 +732,7 @@ def main():
         if completed == 0:
             st.info("⏳ Nessuna partita completata.")
         else:
-            grid_df, player_gironi, sum_df = build_trump_analysis(data, results, corrections)
+            grid_df, player_gironi, range_df, realistic_df = build_trump_analysis(data, results, corrections)
 
             st.subheader("💣 Punti per girone — Mappa rischio")
             st.dataframe(
@@ -631,13 +741,25 @@ def main():
             )
 
             st.markdown("---")
-            st.subheader("📋 Riepilogo scenari peggiore / migliore")
+            st.subheader("📊 Range estremi (forchetta ampia)")
+            st.caption("Best = TB dimezzante sul girone più debole · Worst = TB azzerante sul girone più forte")
             st.dataframe(
-                sum_df.style.hide(axis="index")
+                range_df.style.hide(axis="index")
                     .set_properties(**{"text-align": "center"})
                     .set_properties(**{"font-weight": "bold"}, subset=["Partecipante"])
-                    .map(lambda v: "color:#9c0006;font-weight:bold" if isinstance(v, str) and v.startswith("-") and float(v) < -2 else "", subset=["Se dimezzato", "Se azzerato"])
-                    .map(lambda v: "color:#006100" if isinstance(v, str) and v.startswith("-") and float(v) > -1 else "", subset=["Se dimezzato ", "Se azzerato "]),
+                    .map(lambda v: "color:#006100;font-weight:bold" if isinstance(v, str) and v.startswith("-") else "", subset=["🟢 Best (dimezz.)"])
+                    .map(lambda v: "color:#9c0006;font-weight:bold" if isinstance(v, str) and v.startswith("-") else "", subset=["🔴 Worst (azzer.)"]),
+                use_container_width=True,
+            )
+
+            st.markdown("---")
+            st.subheader("🎯 Range realistico (mediana top 5 gironi)")
+            st.caption("Stima sui 5 gironi più 'appetibili' per i nominatori della TB")
+            st.dataframe(
+                realistic_df.style.hide(axis="index")
+                    .set_properties(**{"text-align": "center"})
+                    .set_properties(**{"font-weight": "bold"}, subset=["Partecipante"])
+                    .map(lambda v: "color:#a16207;font-weight:bold" if isinstance(v, str) and v.startswith("-") else "", subset=["🟡 Realistico min (dimezz.)", "🟡 Realistico max (azzer.)"]),
                 use_container_width=True,
             )
 
@@ -645,14 +767,24 @@ def main():
             <div style="font-size:12px; margin-top:10px">
                 <b>Legenda griglia:</b>&nbsp;
                 <span style="background:#ffc7ce; padding:2px 8px; border-radius:4px">🔴 Girone più rischioso (max punti)</span>&nbsp;
-                <span style="background:#c6efce; padding:2px 8px; border-radius:4px">🟢 Girone meno rischioso (min punti >0)</span>&nbsp;
-                <span style="background:#f1f5f9; padding:2px 8px; border-radius:4px">⬜ 0 punti</span>
+                <span style="background:#c6efce; padding:2px 8px; border-radius:4px">🟢 Girone meno rischioso (min punti)</span>
             </div>
             <div style="font-size:11px; margin-top:5px; color:gray">
-                <b>Trump Bomb:</b> se ≥3 partecipanti ti nominano sullo stesso girone → punti dimezzati.
-                Se >3 → punti azzerati. La bomba colpisce il girone dove hai più punti.
+                <b>Trump Bomb:</b> ≥3 partecipanti ti nominano sullo stesso girone → dimezzato.
+                ≥4 → azzerato. Tutti i partecipanti sono stati colpiti da TB.
             </div>
             """, unsafe_allow_html=True)
+            st.markdown("---")
+            st.subheader("📈 Forchetta punteggio finale")
+            st.caption(
+                "💎 = totale attuale · barra spessa arancione = range realistico (mediana top5) · "
+                "barra sottile grigia = range estremo (min/max)"
+            )
+            fig = build_trump_range_chart(
+                calculate_scores(data, results, corrections),
+                range_df, realistic_df
+            )
+            st.plotly_chart(fig, use_container_width=True)
 
     st.markdown("---")
     st.markdown("<p style='text-align:center;color:gray;font-size:12px'>🦉 Fanta Gufo Mondiale 2026 — Dashboard</p>",unsafe_allow_html=True)
