@@ -430,5 +430,21 @@
     "trasferta_1t": 2,
     "marcatori": "Vinicius, Cunha",
     "completata": true
+  },
+  "55": {
+    "casa": 0,
+    "trasferta": 2,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Pepe",
+    "completata": true
+  },
+  "56": {
+    "casa": 2,
+    "trasferta": 1,
+    "casa_1t": 1,
+    "trasferta_1t": 1,
+    "marcatori": "Sane, Angulo, Plata",
+    "completata": true
   }
 }
