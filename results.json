@@ -382,5 +382,53 @@
     "trasferta_1t": 0,
     "marcatori": "Budimir",
     "completata": true
+  },
+  "53": {
+    "casa": 1,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Maseko",
+    "completata": true
+  },
+  "54": {
+    "casa": 0,
+    "trasferta": 3,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Chavez Garcia, Quinones, Fidalgo",
+    "completata": true
+  },
+  "49": {
+    "casa": 2,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Vargas, Manzambi, David",
+    "completata": true
+  },
+  "50": {
+    "casa": 3,
+    "trasferta": 1,
+    "casa_1t": 2,
+    "trasferta_1t": 1,
+    "marcatori": "Alajbegovic, Abunada(AUT), Al Haydos, Mahmic",
+    "completata": true
+  },
+  "51": {
+    "casa": 4,
+    "trasferta": 2,
+    "casa_1t": 2,
+    "trasferta_1t": 2,
+    "marcatori": "Bono(AUT), Hakimi, Isidor, Saibari, Rahimi, Yassine",
+    "completata": true
+  },
+  "52": {
+    "casa": 0,
+    "trasferta": 3,
+    "casa_1t": 0,
+    "trasferta_1t": 2,
+    "marcatori": "Vinicius, Cunha",
+    "completata": true
   }
 }
