@@ -446,5 +446,37 @@
     "trasferta_1t": 1,
     "marcatori": "Sane, Angulo, Plata",
     "completata": true
+  },
+  "59": {
+    "casa": 3,
+    "trasferta": 2,
+    "casa_1t": 2,
+    "trasferta_1t": 1,
+    "marcatori": "Trusty, Guler, Yilmaz, Berhalter, Ayhan",
+    "completata": true
+  },
+  "60": {
+    "casa": 0,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "",
+    "completata": true
+  },
+  "57": {
+    "casa": 1,
+    "trasferta": 3,
+    "casa_1t": 0,
+    "trasferta_1t": 2,
+    "marcatori": "Skhiri(AUT), Brobbey, Mastouri, van Hecke",
+    "completata": true
+  },
+  "58": {
+    "casa": 1,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Maeda, Elanga",
+    "completata": true
   }
 }
