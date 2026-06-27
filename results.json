@@ -478,5 +478,53 @@
     "trasferta_1t": 0,
     "marcatori": "Maeda, Elanga",
     "completata": true
+  },
+  "61": {
+    "casa": 1,
+    "trasferta": 4,
+    "casa_1t": 1,
+    "trasferta_1t": 3,
+    "marcatori": "Dembele, Aasgaard, Doue",
+    "completata": true
+  },
+  "62": {
+    "casa": 5,
+    "trasferta": 0,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Diarra, Sarr, Gueye, Ndiaye",
+    "completata": true
+  },
+  "63": {
+    "casa": 0,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "",
+    "completata": true
+  },
+  "64": {
+    "casa": 0,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Baena",
+    "completata": true
+  },
+  "66": {
+    "casa": 1,
+    "trasferta": 1,
+    "casa_1t": 1,
+    "trasferta_1t": 1,
+    "marcatori": "Saber, Rezaeian",
+    "completata": true
+  },
+  "65": {
+    "casa": 1,
+    "trasferta": 5,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Trossard, De bruyne, Just, Lukaku, Saelemaekers",
+    "completata": true
   }
 }
