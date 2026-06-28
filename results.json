@@ -526,5 +526,53 @@
     "trasferta_1t": 1,
     "marcatori": "Trossard, De bruyne, Just, Lukaku, Saelemaekers",
     "completata": true
+  },
+  "67": {
+    "casa": 0,
+    "trasferta": 2,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "Bellingham, Kane",
+    "completata": true
+  },
+  "68": {
+    "casa": 2,
+    "trasferta": 1,
+    "casa_1t": 1,
+    "trasferta_1t": 0,
+    "marcatori": "Sucic, Luckassen, Vlasic",
+    "completata": true
+  },
+  "69": {
+    "casa": 0,
+    "trasferta": 0,
+    "casa_1t": 0,
+    "trasferta_1t": 0,
+    "marcatori": "",
+    "completata": true
+  },
+  "70": {
+    "casa": 3,
+    "trasferta": 1,
+    "casa_1t": 0,
+    "trasferta_1t": 1,
+    "marcatori": "Shomurodov, Wissa, Mayele",
+    "completata": true
+  },
+  "71": {
+    "casa": 3,
+    "trasferta": 3,
+    "casa_1t": 1,
+    "trasferta_1t": 1,
+    "marcatori": "Arnautovic, Belghali, Sabitzer, Mahrez, Kalajdzic",
+    "completata": true
+  },
+  "72": {
+    "casa": 1,
+    "trasferta": 3,
+    "casa_1t": 0,
+    "trasferta_1t": 2,
+    "marcatori": "Lo Celso, Lautaro Martinez, Messi, Tamari",
+    "completata": true
   }
 }
