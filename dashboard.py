@@ -8,6 +8,7 @@ import os
 import pandas as pd
 from collections import defaultdict
 import plotly.graph_objects as go
+import re
 
 st.set_page_config(page_title="🦉 Fanta Gufo 2026 — Dashboard", page_icon="🦉", layout="wide")
 
@@ -50,6 +51,46 @@ def get_combo(data, corrections, participant, mid_str):
 # ═══════════════════════════════════════════════════════════
 # MOTORE PUNTEGGI
 # ═══════════════════════════════════════════════════════════
+def load_speciali_reali():
+    if os.path.exists("speciali_reali.json"):
+        with open("speciali_reali.json", "r", encoding="utf-8") as f: return json.load(f)
+    return {}
+
+def normalize_str(s):
+    """Normalizza per matching tollerante: lowercase, accenti, dash, spazi."""
+    import unicodedata
+    if not s: return ""
+    s = str(s).lower().strip()
+    # Rimuovi accenti
+    s = "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
+    # Normalizza tutti i tipi di trattino in "-"
+    for dash in ["–", "—", "−", "‐", "‑", "‒"]:
+        s = s.replace(dash, "-")
+    # Uniforma spazi attorno al trattino: "x-y", "x - y", "x-  y" → "x - y"
+    s = re.sub(r"\s*-\s*", " - ", s)
+    # Spazi multipli → singoli
+    s = re.sub(r"\s+", " ", s)
+    return s.strip()
+
+def fuzzy_match(user_val, real_val):
+    """Match tollerante: true se uno contiene l'altro dopo normalizzazione."""
+    if not user_val or not real_val: return False
+    u = normalize_str(user_val); r = normalize_str(real_val)
+    if not u or not r: return False
+    # Rimuovi parentesi extra es. "Marciniak (Polonia)" → "marciniak"
+    u = re.sub(r"\(.*?\)", "", u).strip()
+    r = re.sub(r"\(.*?\)", "", r).strip()
+    return u in r or r in u
+
+def match_partita_piu_goal(user_val, real_val, data):
+    """Match per la partita con più gol: confronta normalizzato o per ID."""
+    if not user_val or not real_val: return False
+    # Estrai ID se presente (es. "#9 ..." → "9")
+    u_id = re.search(r"#?(\d+)", str(user_val))
+    r_id = re.search(r"#?(\d+)", str(real_val))
+    if u_id and r_id and u_id.group(1) == r_id.group(1):
+        return True
+    return fuzzy_match(user_val, real_val)
 def calculate_scores(data, results, corrections):
     match_dict = get_match_dict(data)
     scores = {}
@@ -115,6 +156,36 @@ def calculate_scores(data, results, corrections):
         scores[pname]={"totale":round(totale,1),"gironi":dict(gironi),"dettaglio":dettaglio}
     return scores
 
+def calculate_extras(data, speciali_reali):
+    """Calcola i punti extra (scommesse speciali) per ogni partecipante."""
+    extras = {p: {"totale": 0.0, "dettaglio": []} for p in PARTICIPANTS}
+    if not speciali_reali: return extras
+
+    pe_real = speciali_reali.get("prima_eliminata", "")
+    pp_real = speciali_reali.get("partita_piu_goal", "")
+    cc_real = speciali_reali.get("capocannoniere", "")
+    af_real = speciali_reali.get("arbitro_finale", "")
+
+    for p in PARTICIPANTS:
+        sp = data["partecipanti"].get(p, {}).get("speciali", {})
+
+        if pe_real and fuzzy_match(sp.get("prima_eliminata", ""), pe_real):
+            extras[p]["totale"] += 2.5
+            extras[p]["dettaglio"].append(("Prima Eliminata", 2.5))
+
+        if pp_real and match_partita_piu_goal(sp.get("partita_piu_goal", ""), pp_real, data):
+            extras[p]["totale"] += 3.0
+            extras[p]["dettaglio"].append(("Partita + Goal", 3.0))
+
+        if cc_real and fuzzy_match(sp.get("capocannoniere", ""), cc_real):
+            extras[p]["totale"] += 3.5
+            extras[p]["dettaglio"].append(("Capocannoniere", 3.5))
+
+        if af_real and fuzzy_match(sp.get("arbitro_finale", ""), af_real):
+            extras[p]["totale"] += 3.5
+            extras[p]["dettaglio"].append(("Arbitro Finale", 3.5))
+
+    return extras
 # ═══════════════════════════════════════════════════════════
 # GRIGLIA PRONOSTICI
 # ═══════════════════════════════════════════════════════════
@@ -530,7 +601,10 @@ def style_trump_grid(df, player_gironi):
     return styled
 
 
-def build_trump_range_chart(scores, range_df, realistic_df):
+
+def build_trump_range_chart(scores, range_df, realistic_df, extras=None):
+    if extras is None: extras = {p: {"totale": 0.0} for p in scores}
+
     """Grafico Plotly con range estremo + range realistico per ogni partecipante."""
     # Ordina per totale decrescente (top in alto)
     sorted_p = sorted(scores.keys(), key=lambda p: scores[p]["totale"], reverse=True)
@@ -559,11 +633,12 @@ def build_trump_range_chart(scores, range_df, realistic_df):
         real_max_loss = parse_loss(rl["🟡 Realistico max (azzer.)"])
 
         names.append(p)
-        totals.append(tot)
-        best_finals.append(tot + best_loss)
-        worst_finals.append(tot + worst_loss)
-        real_min_finals.append(tot + real_min_loss)
-        real_max_finals.append(tot + real_max_loss)
+        totals.append(tot + extras.get(p, {}).get("totale", 0.0))
+        ex = extras.get(p, {}).get("totale", 0.0)
+        best_finals.append(tot + best_loss + ex)
+        worst_finals.append(tot + worst_loss + ex)
+        real_min_finals.append(tot + real_min_loss + ex)
+        real_max_finals.append(tot + real_max_loss + ex)
 
     fig = go.Figure()
 
@@ -597,8 +672,9 @@ def build_trump_range_chart(scores, range_df, realistic_df):
         mode="markers",
         marker=dict(color="#1e40af", size=12, symbol="diamond",
                     line=dict(color="white", width=2)),
-        name="Totale attuale",
+        name="Totale (gironi + extra)",
         hovertemplate="<b>%{y}</b><br>Totale: %{x:.1f}<extra></extra>",
+
     ))
 
     # Markers per estremi
@@ -646,14 +722,19 @@ def main():
         st.header("🏆 Classifica Generale")
         if completed==0:st.info("⏳ Il torneo non è ancora iniziato.")
         else:
-            scores=calculate_scores(data,results,corrections);rows=[]
-            for i,p in enumerate(sorted(scores.keys(),key=lambda p:scores[p]["totale"],reverse=True)):
-                s=scores[p];m=["🥇","🥈","🥉"][i] if i<3 else f"{i+1}°"
-                row={"Pos":m,"Partecipante":p,"Punti":s["totale"]}
+            scores=calculate_scores(data,results,corrections)
+            speciali_reali = load_speciali_reali()
+            extras = calculate_extras(data, speciali_reali)
+            rows=[]
+            for i,p in enumerate(sorted(scores.keys(),key=lambda p:scores[p]["totale"]+extras[p]["totale"],reverse=True)):
+                s=scores[p]
+                ex = extras[p]["totale"]
+                m=["🥇","🥈","🥉"][i] if i<3 else f"{i+1}°"
+                row={"Pos":m,"Partecipante":p,"Punti":s["totale"],"Extra":ex,"Totale":round(s["totale"]+ex,1)}
                 for g in GROUPS:row[g]=round(s["gironi"].get(g,0),1)
                 rows.append(row)
-            st.dataframe(pd.DataFrame(rows).style.hide(axis="index").set_properties(**{"text-align":"center"}).set_properties(**{"font-weight":"bold"},subset=["Punti","Pos"]).format({"Punti":"{:.1f}"}|{g:"{:.1f}" for g in GROUPS}),use_container_width=True,height=520)
-            st.caption(f"📊 Partite completate: {completed}/72")
+            st.dataframe(pd.DataFrame(rows).style.hide(axis="index").set_properties(**{"text-align":"center"}).set_properties(**{"font-weight":"bold"},subset=["Totale","Pos"]).format({"Punti":"{:.1f}","Extra":"{:.1f}","Totale":"{:.1f}"}|{g:"{:.1f}" for g in GROUPS}),use_container_width=True,height=520)
+
 
     with tab2:
         st.header("📋 Griglia Pronostici")
@@ -662,8 +743,43 @@ def main():
         if sg!="Tutti":pdf=pdf[pdf["Gir."]==sg].reset_index(drop=True)
         st.dataframe(style_pronostici(pdf,results),use_container_width=True,height=700)
         st.markdown("""<div style="display:flex;gap:20px;font-size:12px;margin-top:10px"><span style="background:#c6efce;padding:2px 8px;border-radius:4px">✅ Corretto</span><span style="background:#ffc7ce;padding:2px 8px;border-radius:4px">❌ Sbagliato</span><span style="background:#dbeafe;padding:2px 8px;border-radius:4px">1 Casa</span><span style="background:#fef9c3;padding:2px 8px;border-radius:4px">X Pareggio</span><span style="background:#fce7f3;padding:2px 8px;border-radius:4px">2 Trasferta</span></div>""",unsafe_allow_html=True)
+       
         st.markdown("---");st.subheader("🎯 Scommesse Speciali")
-        st.dataframe(build_speciali_grid(data).style.hide(axis="index").set_properties(**{"text-align":"center"},subset=PARTICIPANTS).set_properties(**{"font-weight":"bold"},subset=["Scommessa"]).set_properties(**{"font-size":"12px"}),use_container_width=True)
+        speciali_reali = load_speciali_reali()
+
+        if speciali_reali and any(speciali_reali.values()):
+            st.caption(f"**Risultati ufficiali:** "
+                       f"Prima Eliminata: `{speciali_reali.get('prima_eliminata','-')}` · "
+                       f"Partita + Goal: `{speciali_reali.get('partita_piu_goal','-')}` · "
+                       f"Capocannoniere: `{speciali_reali.get('capocannoniere','-')}` · "
+                       f"Arbitro: `{speciali_reali.get('arbitro_finale','-')}`")
+
+        sp_df = build_speciali_grid(data)
+
+        def color_speciali(val, scommessa, p):
+            if not speciali_reali: return ""
+            mapping = {"Prima Eliminata":("prima_eliminata",fuzzy_match),
+                       "Partita + Goal":("partita_piu_goal",lambda u,r: match_partita_piu_goal(u,r,data)),
+                       "Capocannoniere":("capocannoniere",fuzzy_match),
+                       "Arbitro Finale":("arbitro_finale",fuzzy_match)}
+            if scommessa not in mapping: return ""
+            key, matcher = mapping[scommessa]
+            real = speciali_reali.get(key, "")
+            if not real or not val or val == "-": return ""
+            if matcher(val, real):
+                return "background-color:#c6efce;color:#006100;font-weight:bold"
+            return "background-color:#ffc7ce;color:#9c0006"
+
+        styled = sp_df.style.hide(axis="index")
+        for p in PARTICIPANTS:
+            styled = styled.apply(
+                lambda col, p=p: [color_speciali(v, sp_df.iloc[i]["Scommessa"], p) for i, v in enumerate(col)],
+                subset=[p]
+            )
+        styled = styled.set_properties(**{"text-align":"center"}, subset=PARTICIPANTS)
+        styled = styled.set_properties(**{"font-weight":"bold"}, subset=["Scommessa"])
+        styled = styled.set_properties(**{"font-size":"12px"})
+        st.dataframe(styled, use_container_width=True)
 
     with tab3:
         st.header("🎯 Combo")
@@ -780,14 +896,20 @@ def main():
                 "💎 = totale attuale · barra spessa arancione = range realistico (mediana top5) · "
                 "barra sottile grigia = range estremo (min/max)"
             )
+            
             fig = build_trump_range_chart(
                 calculate_scores(data, results, corrections),
-                range_df, realistic_df
+                range_df, realistic_df,
+                calculate_extras(data, load_speciali_reali())
             )
+
             st.plotly_chart(fig, use_container_width=True)
 
     st.markdown("---")
     st.markdown("<p style='text-align:center;color:gray;font-size:12px'>🦉 Fanta Gufo Mondiale 2026 — Dashboard</p>",unsafe_allow_html=True)
+
+
+
 
 if __name__ == "__main__":
     main()
